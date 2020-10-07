@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.module1208">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-sdk android:targetSdkVersion="28" /><application>
+         <activity android:name=".Activity0">
+        </activity>
+        <activity android:name=".Activity1">
+        </activity>
+ </application>
+
+</manifest>

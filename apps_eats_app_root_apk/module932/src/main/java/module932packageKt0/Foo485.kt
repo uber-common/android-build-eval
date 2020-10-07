@@ -1,0 +1,22 @@
+package module932packageKt0;
+
+annotation class Foo485Fancy
+@Foo485Fancy
+class Foo485 {
+
+  fun foo0(){
+    module932packageKt0.Foo484().foo3()
+  }
+
+  fun foo1(){
+    foo0()
+  }
+
+  fun foo2(){
+    foo1()
+  }
+
+  fun foo3(){
+    foo2()
+  }
+}

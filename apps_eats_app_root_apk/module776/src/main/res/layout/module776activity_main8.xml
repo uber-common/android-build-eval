@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            <TextView
+        android:id="@+id/module776activity_main8module776string80"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/module776string8"
+        
+/>
+            <ImageView
+        android:id="@+id/module776activity_main8module776image80"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/module776image8"
+        
+/>
+            
+            
+        </LinearLayout>
+    </ScrollView>

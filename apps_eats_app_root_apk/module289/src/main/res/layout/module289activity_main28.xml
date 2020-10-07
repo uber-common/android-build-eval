@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            <TextView
+        android:id="@+id/module289activity_main28module213string00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/module213string0"
+        
+/><TextView
+        android:id="@+id/module289activity_main28module319string51"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/module319string5"
+        
+/><TextView
+        android:id="@+id/module289activity_main28module515string222"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/module515string22"
+        
+/><TextView
+        android:id="@+id/module289activity_main28module133string83"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/module133string8"
+        
+/><TextView
+        android:id="@+id/module289activity_main28module528string174"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/module528string17"
+        
+/><TextView
+        android:id="@+id/module289activity_main28module1020string985"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/module1020string98"
+        
+/><TextView
+        android:id="@+id/module289activity_main28module278string26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/module278string2"
+        
+/><TextView
+        android:id="@+id/module289activity_main28module401string227"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/module401string22"
+        
+/><TextView
+        android:id="@+id/module289activity_main28module44string58"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/module44string5"
+        
+/>
+            
+            
+        </LinearLayout>
+    </ScrollView>

@@ -1,0 +1,3 @@
+InvocationInfo {"buildId":"f4933692-8a96-4481-abce-66d56fea9bb1","superConsoleEnabled":true,"isDaemon":true,"subCommand":"auditcommand","commandArgs":["audit","config","kotlin.kotlin_home"],"unexpandedCommandArgs":["audit","config","kotlin.kotlin_home"],"buckLogDir":"buck-out/log","isRemoteExecution":false,"repository":"","watchmanVersion":"4.9.0","timestampMillis":1601919565378}
+Cache.Stats {"cacheHitsPerMode":{"dir":0},"cacheErrorsPerMode":{"dir":0},"cacheBytesPerMode":{"dir":0},"totalCacheHits":0,"totalCacheErrors":0,"totalCacheMisses":0,"totalCacheIgnores":0,"totalCacheBytes":0,"totalCacheLocalKeyUnchangedHits":0,"successUploadCount":0,"failureUploadCount":0}
+ExitCode {"exitCode":0}

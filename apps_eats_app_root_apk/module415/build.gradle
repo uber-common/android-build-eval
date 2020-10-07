@@ -1,0 +1,11 @@
+apply plugin: 'java-library'
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    implementation project(':module30')
+    implementation "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+    implementation project(':leafModuleMax')
+    implementation "org.json:json:20141113"
+    implementation "org.checkerframework:checker-compat-qual:2.5.5"
+}
+sourceCompatibility = "1.8"
+targetCompatibility = "1.8"

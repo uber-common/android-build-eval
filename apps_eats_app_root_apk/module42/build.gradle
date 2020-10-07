@@ -1,0 +1,12 @@
+apply plugin: 'java-library'
+apply plugin: 'kotlin'
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    implementation project(':module409')
+    implementation "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+    implementation project(':module235')
+    implementation "androidx.annotation:annotation-experimental:1.0.0-rc01"
+    compile "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
+}
+sourceCompatibility = "1.8"
+targetCompatibility = "1.8"
