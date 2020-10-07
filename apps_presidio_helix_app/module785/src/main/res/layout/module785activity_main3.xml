@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            <TextView
+        android:id="@+id/module785activity_main3module607string1310"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/module607string131"
+        
+/><TextView
+        android:id="@+id/module785activity_main3module1152string21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/module1152string2"
+        
+/><TextView
+        android:id="@+id/module785activity_main3module803string12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/module803string1"
+        
+/><TextView
+        android:id="@+id/module785activity_main3module101string23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/module101string2"
+        
+/>
+            <ImageView
+        android:id="@+id/module785activity_main3module1152image00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/module1152image0"
+        
+/>
+            <ImageView
+        android:id="@+id/module785activity_main3module803image351"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/module803image35"
+        
+/>
+            <ImageView
+        android:id="@+id/module785activity_main3module101image382"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/module101image38"
+        
+/>
+            
+            
+        </LinearLayout>
+    </ScrollView>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            <TextView
+        android:id="@+id/module1130activity_main1module1130string10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/module1130string1"
+        
+/><TextView
+        android:id="@+id/module1130activity_main1module1130string21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/module1130string2"
+        
+/><TextView
+        android:id="@+id/module1130activity_main1module1130string32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/module1130string3"
+        
+/><TextView
+        android:id="@+id/module1130activity_main1module1130string43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/module1130string4"
+        
+/><TextView
+        android:id="@+id/module1130activity_main1module1130string54"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/module1130string5"
+        
+/><TextView
+        android:id="@+id/module1130activity_main1module1152string25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/module1152string2"
+        
+/><TextView
+        android:id="@+id/module1130activity_main1module266string26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/module266string2"
+        
+/><TextView
+        android:id="@+id/module1130activity_main1module912string597"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/module912string59"
+        
+/><TextView
+        android:id="@+id/module1130activity_main1module1515string08"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/module1515string0"
+        
+/><TextView
+        android:id="@+id/module1130activity_main1module1303string419"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/module1303string41"
+        
+/><TextView
+        android:id="@+id/module1130activity_main1module1255string010"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/module1255string0"
+        
+/><TextView
+        android:id="@+id/module1130activity_main1module205string111"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/module205string1"
+        
+/><TextView
+        android:id="@+id/module1130activity_main1module75string6012"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/module75string60"
+        
+/><TextView
+        android:id="@+id/module1130activity_main1module779string4813"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/module779string48"
+        
+/><TextView
+        android:id="@+id/module1130activity_main1module101string214"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/module101string2"
+        
+/><TextView
+        android:id="@+id/module1130activity_main1module1305string315"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/module1305string3"
+        
+/><TextView
+        android:id="@+id/module1130activity_main1module633string52216"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/module633string522"
+        
+/>
+            <ImageView
+        android:id="@+id/module1130activity_main1module1130image10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/module1130image1"
+        
+/>
+            <ImageView
+        android:id="@+id/module1130activity_main1module1152image01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/module1152image0"
+        
+/>
+            <ImageView
+        android:id="@+id/module1130activity_main1module912image282"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/module912image28"
+        
+/>
+            <ImageView
+        android:id="@+id/module1130activity_main1module1303image133"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/module1303image13"
+        
+/>
+            <ImageView
+        android:id="@+id/module1130activity_main1module1255image64"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/module1255image6"
+        
+/>
+            <ImageView
+        android:id="@+id/module1130activity_main1module75image25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/module75image2"
+        
+/>
+            <ImageView
+        android:id="@+id/module1130activity_main1module101image386"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/module101image38"
+        
+/>
+            <ImageView
+        android:id="@+id/module1130activity_main1module1305image577"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/module1305image57"
+        
+/>
+            <ImageView
+        android:id="@+id/module1130activity_main1module325image2728"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/module325image272"
+        
+/>
+            <ImageView
+        android:id="@+id/module1130activity_main1module633image809"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/module633image80"
+        
+/>
+            
+            
+        </LinearLayout>
+    </ScrollView>

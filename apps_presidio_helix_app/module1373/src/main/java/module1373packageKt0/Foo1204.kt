@@ -1,0 +1,30 @@
+package module1373packageKt0;
+
+annotation class Foo1204Fancy
+@Foo1204Fancy
+class Foo1204 {
+
+  fun foo0(){
+    module1373packageKt0.Foo1203().foo5()
+  }
+
+  fun foo1(){
+    foo0()
+  }
+
+  fun foo2(){
+    foo1()
+  }
+
+  fun foo3(){
+    foo2()
+  }
+
+  fun foo4(){
+    foo3()
+  }
+
+  fun foo5(){
+    foo4()
+  }
+}

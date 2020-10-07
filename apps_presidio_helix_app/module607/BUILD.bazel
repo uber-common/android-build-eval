@@ -1,0 +1,32 @@
+load("@gmaven_rules//:defs.bzl", "gmaven_artifact")
+
+android_library(
+    name = "module607",
+    srcs = glob(["src/main/java/**/*.java"]),
+    resource_files = glob(["src/main/res/**/*"]),
+    manifest = "src/main/AndroidManifest.xml",
+    custom_package = "com.module607",
+    visibility = ["//visibility:public"],
+    deps = [
+        "//module767",
+        "//leafModuleMax",
+        "//module1597",
+        "@maven//:org_checkerframework_checker_compat_qual",
+        "@maven//:androidx_annotation_annotation_experimental",
+        "//module1305",
+        "//module500",
+        "//module881",
+        "//module832",
+        "//module266",
+        "//module1152",
+        "@maven//:androidx_appcompat_appcompat_resources",
+        "@maven//:org_jetbrains_kotlin_kotlin_allopen",
+        "//module630",
+        "@maven//:io_reactivex_rxjava2_rxandroid",
+        gmaven_artifact("com.android.support:appcompat-v7:aar:28.0.0"),
+        gmaven_artifact("com.android.support.constraint:constraint-layout:aar:1.1.3"),
+        gmaven_artifact("com.android.support:multidex:aar:1.0.3"),
+        gmaven_artifact("com.android.support.test:runner:aar:1.0.2"),
+        gmaven_artifact("com.android.support.test.espresso:espresso-core:aar:3.0.2")
+    ],
+)

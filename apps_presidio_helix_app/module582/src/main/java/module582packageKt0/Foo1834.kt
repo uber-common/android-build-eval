@@ -1,0 +1,34 @@
+package module582packageKt0;
+
+annotation class Foo1834Fancy
+@Foo1834Fancy
+class Foo1834 {
+
+  fun foo0(){
+    module582packageKt0.Foo1833().foo6()
+  }
+
+  fun foo1(){
+    foo0()
+  }
+
+  fun foo2(){
+    foo1()
+  }
+
+  fun foo3(){
+    foo2()
+  }
+
+  fun foo4(){
+    foo3()
+  }
+
+  fun foo5(){
+    foo4()
+  }
+
+  fun foo6(){
+    foo5()
+  }
+}
