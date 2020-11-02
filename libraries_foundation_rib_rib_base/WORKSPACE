@@ -1,0 +1,33 @@
+android_sdk_repository(
+    name = "androidsdk",
+)
+
+# Google Maven Repository
+load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
+GMAVEN_TAG = "20181212-2"
+http_archive(
+    name = "gmaven_rules",
+    strip_prefix = "gmaven_rules-%s" % GMAVEN_TAG,
+    urls = ["https://github.com/bazelbuild/gmaven_rules/archive/%s.tar.gz" % GMAVEN_TAG],
+)
+load("@gmaven_rules//:gmaven.bzl", "gmaven_rules")
+gmaven_rules()
+
+http_archive(
+    name = "rules_jvm_external",
+    strip_prefix = "rules_jvm_external-2.8",
+    urls = ["https://github.com/bazelbuild/rules_jvm_external/archive/2.8.zip"],
+    sha256 = "79c9850690d7614ecdb72d68394f994fef7534b292c4867ce5e7dec0aa7bdfad",
+)
+load("@rules_jvm_external//:defs.bzl", "maven_install")
+maven_install(
+    artifacts = ["androidx.annotation:annotation-experimental:1.0.0-rc01",
+"com.jakewharton.rxrelay2:rxrelay:2.1.0",
+"javax.inject:javax.inject:1",
+"io.reactivex.rxjava2:rxandroid:2.1.1",
+"org.reactivestreams:reactive-streams:1.0.2",
+"org.jetbrains.kotlin:kotlin-allopen:1.4.10",
+"org.checkerframework:checker-compat-qual:2.5.5",
+],
+    repositories = ["https://jcenter.bintray.com/", "https://maven.google.com"],
+)

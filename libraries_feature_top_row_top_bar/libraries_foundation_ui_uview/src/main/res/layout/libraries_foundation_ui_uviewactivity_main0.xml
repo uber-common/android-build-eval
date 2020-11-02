@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            <TextView
+        android:id="@+id/libraries_foundation_ui_uviewactivity_main0libraries_foundation_ui_uviewstring00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/libraries_foundation_ui_uviewstring0"
+        
+/><TextView
+        android:id="@+id/libraries_foundation_ui_uviewactivity_main0libraries_foundation_ui_uviewstring11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/libraries_foundation_ui_uviewstring1"
+        
+/><TextView
+        android:id="@+id/libraries_foundation_ui_uviewactivity_main0libraries_foundation_ui_uviewstring22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/libraries_foundation_ui_uviewstring2"
+        
+/><TextView
+        android:id="@+id/libraries_foundation_ui_uviewactivity_main0libraries_foundation_ui_uviewstring33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/libraries_foundation_ui_uviewstring3"
+        
+/><TextView
+        android:id="@+id/libraries_foundation_ui_uviewactivity_main0libraries_foundation_ui_uviewstring44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/libraries_foundation_ui_uviewstring4"
+        
+/><TextView
+        android:id="@+id/libraries_foundation_ui_uviewactivity_main0libraries_foundation_ui_uviewstring55"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/libraries_foundation_ui_uviewstring5"
+        
+/><TextView
+        android:id="@+id/libraries_foundation_ui_uviewactivity_main0libraries_foundation_ui_uviewstring66"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/libraries_foundation_ui_uviewstring6"
+        
+/><TextView
+        android:id="@+id/libraries_foundation_ui_uviewactivity_main0libraries_foundation_ui_ui_fontstring227"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/libraries_foundation_ui_ui_fontstring22"
+        
+/>
+            <ImageView
+        android:id="@+id/libraries_foundation_ui_uviewactivity_main0libraries_foundation_ui_uviewimage00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/libraries_foundation_ui_uviewimage0"
+        
+/>
+            <ImageView
+        android:id="@+id/libraries_foundation_ui_uviewactivity_main0libraries_foundation_ui_uviewimage11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/libraries_foundation_ui_uviewimage1"
+        
+/>
+            <ImageView
+        android:id="@+id/libraries_foundation_ui_uviewactivity_main0libraries_foundation_ui_uviewimage22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/libraries_foundation_ui_uviewimage2"
+        
+/>
+            
+            
+        </LinearLayout>
+    </ScrollView>

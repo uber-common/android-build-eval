@@ -1,0 +1,10 @@
+load("@io_bazel_rules_kotlin//kotlin:kotlin.bzl", "kt_android_library")
+kt_android_library(
+    name = "libraries_foundation_analytics_extension",
+    srcs = glob(["src/main/java/**/*.java", "src/main/java/**/*.kt"]),
+    visibility = ["//visibility:public"],
+    deps = [
+        "//libraries_foundation_modelgen_jenga_jenga_runtime",
+        "//libraries_foundation_lumber_lumber_logger"
+    ],
+)

@@ -1,0 +1,3 @@
+InvocationInfo {"buildId":"69da37b2-c974-4040-abec-dba50d08d9b9","superConsoleEnabled":true,"isDaemon":true,"subCommand":"querycommand","commandArgs":["query","rootModule","--config-file",".okbuck/config/okbuck.buckconfig"],"unexpandedCommandArgs":["query","rootModule","--config-file",".okbuck/config/okbuck.buckconfig"],"buckLogDir":"buck-out/log","isRemoteExecution":false,"repository":"","watchmanVersion":"4.9.0","timestampMillis":1604348275892}
+Cache.Stats {"cacheHitsPerMode":{"dir":0},"cacheErrorsPerMode":{"dir":0},"cacheBytesPerMode":{"dir":0},"totalCacheHits":0,"totalCacheErrors":0,"totalCacheMisses":0,"totalCacheIgnores":0,"totalCacheBytes":0,"totalCacheLocalKeyUnchangedHits":0,"successUploadCount":0,"failureUploadCount":0}
+ExitCode {"exitCode":0}

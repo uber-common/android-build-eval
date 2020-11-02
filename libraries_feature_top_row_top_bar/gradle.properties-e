@@ -1,0 +1,10 @@
+org.gradle.jvmargs=-Xmx12000m -XX:+HeapDumpOnOutOfMemoryError
+org.gradle.daemon=true
+org.gradle.parallel=true
+org.gradle.workers.max=6
+org.gradle.caching=true
+android.useAndroidX=true
+gradle=build -x lint
+#org.gradle.unsafe.configuration-cache=true
+org.gradle.unsafe.configuration-cache-problems=warn
+org.gradle.unsafe.watch-fs=true

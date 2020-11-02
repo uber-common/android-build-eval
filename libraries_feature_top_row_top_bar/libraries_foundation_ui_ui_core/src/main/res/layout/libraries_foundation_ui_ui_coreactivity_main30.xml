@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            
+            <ImageView
+        android:id="@+id/libraries_foundation_ui_ui_coreactivity_main30libraries_foundation_ui_ui_coreimage300"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/libraries_foundation_ui_ui_coreimage30"
+        
+/>
+            <ImageView
+        android:id="@+id/libraries_foundation_ui_ui_coreactivity_main30libraries_foundation_ui_ui_coreimage311"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/libraries_foundation_ui_ui_coreimage31"
+        
+/>
+            <ImageView
+        android:id="@+id/libraries_foundation_ui_ui_coreactivity_main30libraries_foundation_ui_ui_coreimage322"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/libraries_foundation_ui_ui_coreimage32"
+        
+/>
+            <ImageView
+        android:id="@+id/libraries_foundation_ui_ui_coreactivity_main30libraries_foundation_ui_ui_coreimage333"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/libraries_foundation_ui_ui_coreimage33"
+        
+/>
+            <ImageView
+        android:id="@+id/libraries_foundation_ui_ui_coreactivity_main30libraries_foundation_ui_ui_coreimage344"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/libraries_foundation_ui_ui_coreimage34"
+        
+/>
+            <ImageView
+        android:id="@+id/libraries_foundation_ui_ui_coreactivity_main30libraries_foundation_ui_ui_coreimage355"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/libraries_foundation_ui_ui_coreimage35"
+        
+/>
+            <ImageView
+        android:id="@+id/libraries_foundation_ui_ui_coreactivity_main30libraries_foundation_ui_ui_coreimage366"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/libraries_foundation_ui_ui_coreimage36"
+        
+/>
+            <ImageView
+        android:id="@+id/libraries_foundation_ui_ui_coreactivity_main30libraries_foundation_ui_ui_coreimage377"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/libraries_foundation_ui_ui_coreimage37"
+        
+/>
+            <ImageView
+        android:id="@+id/libraries_foundation_ui_ui_coreactivity_main30libraries_foundation_ui_ui_coreimage388"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/libraries_foundation_ui_ui_coreimage38"
+        
+/>
+            <ImageView
+        android:id="@+id/libraries_foundation_ui_ui_coreactivity_main30libraries_foundation_ui_ui_coreimage399"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/libraries_foundation_ui_ui_coreimage39"
+        
+/>
+            <ImageView
+        android:id="@+id/libraries_foundation_ui_ui_coreactivity_main30libraries_foundation_ui_ui_coreimage4010"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/libraries_foundation_ui_ui_coreimage40"
+        
+/>
+            <ImageView
+        android:id="@+id/libraries_foundation_ui_ui_coreactivity_main30libraries_foundation_ui_ui_coreimage4111"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/libraries_foundation_ui_ui_coreimage41"
+        
+/>
+            <ImageView
+        android:id="@+id/libraries_foundation_ui_ui_coreactivity_main30libraries_foundation_ui_ui_coreimage4212"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/libraries_foundation_ui_ui_coreimage42"
+        
+/>
+            <ImageView
+        android:id="@+id/libraries_foundation_ui_ui_coreactivity_main30libraries_foundation_ui_ui_coreimage4313"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/libraries_foundation_ui_ui_coreimage43"
+        
+/>
+            <ImageView
+        android:id="@+id/libraries_foundation_ui_ui_coreactivity_main30libraries_foundation_ui_ui_coreimage4414"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/libraries_foundation_ui_ui_coreimage44"
+        
+/>
+            <ImageView
+        android:id="@+id/libraries_foundation_ui_ui_coreactivity_main30libraries_foundation_ui_ui_coreimage4515"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/libraries_foundation_ui_ui_coreimage45"
+        
+/>
+            <ImageView
+        android:id="@+id/libraries_foundation_ui_ui_coreactivity_main30libraries_foundation_ui_ui_coreimage4616"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/libraries_foundation_ui_ui_coreimage46"
+        
+/>
+            <ImageView
+        android:id="@+id/libraries_foundation_ui_ui_coreactivity_main30libraries_foundation_ui_ui_coreimage4717"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/libraries_foundation_ui_ui_coreimage47"
+        
+/>
+            <ImageView
+        android:id="@+id/libraries_foundation_ui_ui_coreactivity_main30libraries_foundation_ui_ui_coreimage4818"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/libraries_foundation_ui_ui_coreimage48"
+        
+/>
+            <ImageView
+        android:id="@+id/libraries_foundation_ui_ui_coreactivity_main30libraries_foundation_ui_ui_coreimage4919"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/libraries_foundation_ui_ui_coreimage49"
+        
+/>
+            <ImageView
+        android:id="@+id/libraries_foundation_ui_ui_coreactivity_main30libraries_foundation_ui_ui_coreimage5020"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/libraries_foundation_ui_ui_coreimage50"
+        
+/>
+            <ImageView
+        android:id="@+id/libraries_foundation_ui_ui_coreactivity_main30libraries_foundation_ui_ui_coreimage5121"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/libraries_foundation_ui_ui_coreimage51"
+        
+/>
+            <ImageView
+        android:id="@+id/libraries_foundation_ui_ui_coreactivity_main30libraries_foundation_ui_ui_coreimage5222"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/libraries_foundation_ui_ui_coreimage52"
+        
+/>
+            <ImageView
+        android:id="@+id/libraries_foundation_ui_ui_coreactivity_main30libraries_foundation_ui_ui_coreimage5323"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/libraries_foundation_ui_ui_coreimage53"
+        
+/>
+            <ImageView
+        android:id="@+id/libraries_foundation_ui_ui_coreactivity_main30libraries_foundation_ui_ui_coreimage5424"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/libraries_foundation_ui_ui_coreimage54"
+        
+/>
+            <ImageView
+        android:id="@+id/libraries_foundation_ui_ui_coreactivity_main30libraries_foundation_ui_ui_coreimage5525"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/libraries_foundation_ui_ui_coreimage55"
+        
+/>
+            <ImageView
+        android:id="@+id/libraries_foundation_ui_ui_coreactivity_main30libraries_foundation_ui_ui_coreimage5626"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/libraries_foundation_ui_ui_coreimage56"
+        
+/>
+            <ImageView
+        android:id="@+id/libraries_foundation_ui_ui_coreactivity_main30libraries_foundation_ui_ui_coreimage5727"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/libraries_foundation_ui_ui_coreimage57"
+        
+/>
+            <ImageView
+        android:id="@+id/libraries_foundation_ui_ui_coreactivity_main30libraries_foundation_ui_ui_coreimage5828"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/libraries_foundation_ui_ui_coreimage58"
+        
+/>
+            <ImageView
+        android:id="@+id/libraries_foundation_ui_ui_coreactivity_main30libraries_foundation_ui_ui_coreimage5929"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/libraries_foundation_ui_ui_coreimage59"
+        
+/>
+            <ImageView
+        android:id="@+id/libraries_foundation_ui_ui_coreactivity_main30libraries_foundation_ui_ui_coreimage6030"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/libraries_foundation_ui_ui_coreimage60"
+        
+/>
+            <ImageView
+        android:id="@+id/libraries_foundation_ui_ui_coreactivity_main30libraries_foundation_ui_ui_coreimage6131"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/libraries_foundation_ui_ui_coreimage61"
+        
+/>
+            <ImageView
+        android:id="@+id/libraries_foundation_ui_ui_coreactivity_main30libraries_foundation_ui_ui_coreimage6232"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/libraries_foundation_ui_ui_coreimage62"
+        
+/>
+            <ImageView
+        android:id="@+id/libraries_foundation_ui_ui_coreactivity_main30libraries_foundation_ui_ui_coreimage6333"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/libraries_foundation_ui_ui_coreimage63"
+        
+/>
+            <ImageView
+        android:id="@+id/libraries_foundation_ui_ui_coreactivity_main30libraries_foundation_ui_ui_coreimage6434"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/libraries_foundation_ui_ui_coreimage64"
+        
+/>
+            <ImageView
+        android:id="@+id/libraries_foundation_ui_ui_coreactivity_main30libraries_foundation_ui_ui_coreimage6535"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/libraries_foundation_ui_ui_coreimage65"
+        
+/>
+            <ImageView
+        android:id="@+id/libraries_foundation_ui_ui_coreactivity_main30libraries_foundation_ui_ui_coreimage6636"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/libraries_foundation_ui_ui_coreimage66"
+        
+/>
+            <ImageView
+        android:id="@+id/libraries_foundation_ui_ui_coreactivity_main30libraries_foundation_ui_ui_coreimage6737"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/libraries_foundation_ui_ui_coreimage67"
+        
+/>
+            <ImageView
+        android:id="@+id/libraries_foundation_ui_ui_coreactivity_main30libraries_foundation_ui_ui_coreimage6838"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/libraries_foundation_ui_ui_coreimage68"
+        
+/>
+            <ImageView
+        android:id="@+id/libraries_foundation_ui_ui_coreactivity_main30libraries_foundation_ui_ui_coreimage6939"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/libraries_foundation_ui_ui_coreimage69"
+        
+/>
+            <ImageView
+        android:id="@+id/libraries_foundation_ui_ui_coreactivity_main30libraries_foundation_ui_ui_coreimage7040"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/libraries_foundation_ui_ui_coreimage70"
+        
+/>
+            <ImageView
+        android:id="@+id/libraries_foundation_ui_ui_coreactivity_main30libraries_foundation_ui_ui_coreimage7141"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/libraries_foundation_ui_ui_coreimage71"
+        
+/>
+            <ImageView
+        android:id="@+id/libraries_foundation_ui_ui_coreactivity_main30libraries_foundation_ui_ui_coreimage7242"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/libraries_foundation_ui_ui_coreimage72"
+        
+/>
+            <ImageView
+        android:id="@+id/libraries_foundation_ui_ui_coreactivity_main30libraries_foundation_ui_ui_coreimage7343"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/libraries_foundation_ui_ui_coreimage73"
+        
+/>
+            <ImageView
+        android:id="@+id/libraries_foundation_ui_ui_coreactivity_main30libraries_foundation_ui_ui_coreimage7444"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/libraries_foundation_ui_ui_coreimage74"
+        
+/>
+            <ImageView
+        android:id="@+id/libraries_foundation_ui_ui_coreactivity_main30libraries_foundation_ui_ui_coreimage7545"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/libraries_foundation_ui_ui_coreimage75"
+        
+/>
+            <ImageView
+        android:id="@+id/libraries_foundation_ui_ui_coreactivity_main30libraries_foundation_ui_ui_coreimage7646"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/libraries_foundation_ui_ui_coreimage76"
+        
+/>
+            <ImageView
+        android:id="@+id/libraries_foundation_ui_ui_coreactivity_main30libraries_foundation_ui_ui_coreimage7747"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/libraries_foundation_ui_ui_coreimage77"
+        
+/>
+            <ImageView
+        android:id="@+id/libraries_foundation_ui_ui_coreactivity_main30libraries_foundation_ui_ui_coreimage7848"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/libraries_foundation_ui_ui_coreimage78"
+        
+/>
+            <ImageView
+        android:id="@+id/libraries_foundation_ui_ui_coreactivity_main30libraries_foundation_ui_ui_themeimage1649"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/libraries_foundation_ui_ui_themeimage16"
+        
+/>
+            <ImageView
+        android:id="@+id/libraries_foundation_ui_ui_coreactivity_main30libraries_foundation_ui_iconsimage54950"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/libraries_foundation_ui_iconsimage549"
+        
+/>
+            <ImageView
+        android:id="@+id/libraries_foundation_ui_ui_coreactivity_main30libraries_foundation_ui_uviewimage251"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/libraries_foundation_ui_uviewimage2"
+        
+/>
+            <ImageView
+        android:id="@+id/libraries_foundation_ui_ui_coreactivity_main30libraries_foundation_ui_ui_legacy_uiimage11652"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/libraries_foundation_ui_ui_legacy_uiimage116"
+        
+/>
+            
+            
+        </LinearLayout>
+    </ScrollView>

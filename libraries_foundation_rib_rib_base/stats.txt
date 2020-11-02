@@ -1,0 +1,10 @@
+JavaClasses	140
+Methods	586
+Modules	8
+LibsExternal	19
+KotlinClasses	0
+Layouts	0
+Images	0
+DepsExternal	28
+Strings	1
+DepsInternal	12

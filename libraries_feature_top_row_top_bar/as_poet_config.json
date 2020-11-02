@@ -1,0 +1,3890 @@
+{
+    "projectConfig": {
+        "buildSystemConfig": {
+            "kotlinVersion": "1.4.10", 
+            "generateBuckFiles": true, 
+            "agpVersion": "4.2.0-alpha10", 
+            "buildSystemVersion": "6.6.1", 
+            "generateBazelFiles": true
+        }, 
+        "projectName": "libraries_feature_top_row_top_bar", 
+        "root": "/Users/oliviern/Uber/android/../generatedProjects", 
+        "moduleConfigs": [
+            {
+                "useKotlin": false, 
+                "java": {
+                    "classesPerPackage": 16, 
+                    "packages": 1, 
+                    "methodsPerClass": 2, 
+                    "fieldsPerClass": 1
+                }, 
+                "generateTests": false, 
+                "dependencies": [
+                    {
+                        "moduleName": "leafModuleMax"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_experiment_experiment_annotations"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "org.checkerframework:checker-compat-qual:2.5.5"
+                    }, 
+                    {
+                        "library": "androidx.annotation:annotation-experimental:1.0.0-rc01"
+                    }
+                ], 
+                "moduleName": "libraries_foundation_experiment_experiment_api"
+            }, 
+            {
+                "resourcesConfig": {
+                    "stringCount": 0.0, 
+                    "layoutCount": 0.0, 
+                    "imageCount": 0.0
+                }, 
+                "moduleName": "libraries_foundation_storage_keyvaluestore", 
+                "java": {
+                    "classesPerPackage": 35, 
+                    "packages": 1, 
+                    "methodsPerClass": 8, 
+                    "fieldsPerClass": 2
+                }, 
+                "generateTests": false, 
+                "dependencies": [
+                    {
+                        "moduleName": "libraries_foundation_uava_types"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_rx_java_v2"
+                    }, 
+                    {
+                        "moduleName": "leafModuleMax"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "org.checkerframework:checker-compat-qual:2.5.5"
+                    }, 
+                    {
+                        "library": "io.reactivex.rxjava2:rxandroid:2.1.1"
+                    }, 
+                    {
+                        "library": "com.squareup.okio:okio:2.7.0"
+                    }, 
+                    {
+                        "library": "androidx.core:core-ktx:1.3.0"
+                    }, 
+                    {
+                        "library": "androidx.annotation:annotation-experimental:1.0.0-rc01"
+                    }
+                ], 
+                "androidBuildConfig": {
+                    "minSdkVersion": 21, 
+                    "targetSdkVersion": 28, 
+                    "compileSdkVersion": 28
+                }, 
+                "activityCount": 0, 
+                "moduleType": "android", 
+                "useKotlin": false
+            }, 
+            {
+                "resourcesConfig": {
+                    "stringCount": 0.0, 
+                    "layoutCount": 0.0, 
+                    "imageCount": 0.0
+                }, 
+                "moduleName": "libraries_foundation_ui_ui_animation", 
+                "java": {
+                    "classesPerPackage": 15, 
+                    "packages": 1, 
+                    "methodsPerClass": 4, 
+                    "fieldsPerClass": 2
+                }, 
+                "generateTests": false, 
+                "dependencies": [
+                    {
+                        "moduleName": "leafModuleMax"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "androidx.transition:transition:1.3.1"
+                    }, 
+                    {
+                        "library": "androidx.legacy:legacy-support-core-ui:1.0.0"
+                    }, 
+                    {
+                        "library": "androidx.legacy:legacy-support-core-ui:1.0.0"
+                    }, 
+                    {
+                        "library": "androidx.fragment:fragment:1.2.0"
+                    }, 
+                    {
+                        "library": "androidx.core:core-ktx:1.3.0"
+                    }, 
+                    {
+                        "library": "androidx.annotation:annotation-experimental:1.0.0-rc01"
+                    }
+                ], 
+                "androidBuildConfig": {
+                    "minSdkVersion": 21, 
+                    "targetSdkVersion": 28, 
+                    "compileSdkVersion": 28
+                }, 
+                "activityCount": 0, 
+                "moduleType": "android", 
+                "useKotlin": false
+            }, 
+            {
+                "useKotlin": false, 
+                "java": {
+                    "classesPerPackage": 6, 
+                    "packages": 1, 
+                    "methodsPerClass": 1, 
+                    "fieldsPerClass": 1
+                }, 
+                "generateTests": false, 
+                "dependencies": [
+                    {
+                        "moduleName": "leafModuleMax"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "org.checkerframework:checker-compat-qual:2.5.5"
+                    }, 
+                    {
+                        "library": "javax.inject:javax.inject:1"
+                    }
+                ], 
+                "moduleName": "libraries_foundation_dagger_android_extras"
+            }, 
+            {
+                "resourcesConfig": {
+                    "stringCount": 0.0, 
+                    "layoutCount": 0.0, 
+                    "imageCount": 0.0
+                }, 
+                "moduleName": "libraries_common_view_extensions", 
+                "java": {
+                    "classesPerPackage": 9, 
+                    "packages": 1, 
+                    "methodsPerClass": 2, 
+                    "fieldsPerClass": 1
+                }, 
+                "generateTests": false, 
+                "dependencies": [
+                    {
+                        "moduleName": "libraries_foundation_rib_rib_base"
+                    }, 
+                    {
+                        "moduleName": "leafModuleMax"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_experiment_experiment"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_analytics_analytics"
+                    }, 
+                    {
+                        "moduleName": "libraries_common_rider_behaviors"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "javax.inject:javax.inject:1"
+                    }, 
+                    {
+                        "library": "androidx.coordinatorlayout:coordinatorlayout:1.1.0"
+                    }, 
+                    {
+                        "library": "androidx.annotation:annotation-experimental:1.0.0-rc01"
+                    }
+                ], 
+                "androidBuildConfig": {
+                    "minSdkVersion": 21, 
+                    "targetSdkVersion": 28, 
+                    "compileSdkVersion": 28
+                }, 
+                "activityCount": 0, 
+                "moduleType": "android", 
+                "useKotlin": false
+            }, 
+            {
+                "resourcesConfig": {
+                    "stringCount": 0.0, 
+                    "layoutCount": 0.0, 
+                    "imageCount": 0.0
+                }, 
+                "useKotlin": true, 
+                "generateTests": false, 
+                "dependencies": [
+                    {
+                        "moduleName": "tooling_program_analysis_error_prone_annotations"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_uava_adapters_moshi"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_uava_adapters_gson"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_modelgen_jenga_jenga_runtime_moshi"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_modelgen_jenga_jenga_runtime_gson"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_modelgen_jenga_jenga_runtime"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_lumber_lumber_logger"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "javax.inject:javax.inject:1"
+                    }, 
+                    {
+                        "library": "javax.annotation:javax.annotation-api:1.3.2"
+                    }, 
+                    {
+                        "library": "com.squareup.wire:wire-compiler:3.0.0-rc01"
+                    }, 
+                    {
+                        "library": "androidx.annotation:annotation-experimental:1.0.0-rc01"
+                    }
+                ], 
+                "kotlin": {
+                    "classesPerPackage": 3, 
+                    "packages": 1, 
+                    "methodsPerClass": 4, 
+                    "fieldsPerClass": 185
+                }, 
+                "activityCount": 0, 
+                "moduleType": "android", 
+                "androidBuildConfig": {
+                    "minSdkVersion": 21, 
+                    "targetSdkVersion": 28, 
+                    "compileSdkVersion": 28
+                }, 
+                "moduleName": "model_types_common_ui__icon"
+            }, 
+            {
+                "useKotlin": false, 
+                "java": {
+                    "classesPerPackage": 19, 
+                    "packages": 1, 
+                    "methodsPerClass": 6, 
+                    "fieldsPerClass": 2
+                }, 
+                "generateTests": false, 
+                "dependencies": [
+                    {
+                        "moduleName": "libraries_foundation_uava_clock"
+                    }, 
+                    {
+                        "moduleName": "leafModuleMax"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "org.checkerframework:checker-compat-qual:2.5.5"
+                    }, 
+                    {
+                        "library": "io.reactivex.rxjava2:rxandroid:2.1.1"
+                    }, 
+                    {
+                        "library": "androidx.annotation:annotation-experimental:1.0.0-rc01"
+                    }
+                ], 
+                "moduleName": "libraries_foundation_lumber_lumber_logger"
+            }, 
+            {
+                "useKotlin": false, 
+                "java": {
+                    "classesPerPackage": 16, 
+                    "packages": 1, 
+                    "methodsPerClass": 2, 
+                    "fieldsPerClass": 1
+                }, 
+                "generateTests": false, 
+                "dependencies": [
+                    {
+                        "moduleName": "libraries_foundation_modelgen_jenga_jenga_runtime"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "org.checkerframework:checker-compat-qual:2.5.5"
+                    }, 
+                    {
+                        "library": "javax.inject:javax.inject:1"
+                    }, 
+                    {
+                        "library": "com.gabrielittner.threetenbp:lazythreetenbp:0.8.0"
+                    }, 
+                    {
+                        "library": "androidx.annotation:annotation-experimental:1.0.0-rc01"
+                    }
+                ], 
+                "moduleName": "libraries_foundation_modelgen_jenga_jenga_runtime_gson"
+            }, 
+            {
+                "resourcesConfig": {
+                    "stringCount": 3.0, 
+                    "layoutCount": 2.0, 
+                    "imageCount": 4.0
+                }, 
+                "moduleName": "rootModule", 
+                "java": {
+                    "classesPerPackage": 37, 
+                    "packages": 1, 
+                    "methodsPerClass": 5, 
+                    "fieldsPerClass": 1
+                }, 
+                "generateTests": false, 
+                "dependencies": [
+                    {
+                        "moduleName": "libraries_foundation_ui_uview"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_ui_ui_core"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_rx_java_v2"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_rib_rib_base"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_rib_rib_android"
+                    }, 
+                    {
+                        "moduleName": "leafModuleMax"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_experiment_experiment_api"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_experiment_experiment"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_codeanalysis"
+                    }, 
+                    {
+                        "moduleName": "libraries_common_view_extensions"
+                    }, 
+                    {
+                        "moduleName": "libraries_common_rx_map"
+                    }, 
+                    {
+                        "moduleName": "libraries_common_rider_behaviors"
+                    }, 
+                    {
+                        "moduleName": "libraries_common_presidio_mode_api"
+                    }, 
+                    {
+                        "moduleName": "libraries_common_presidio_banner"
+                    }, 
+                    {
+                        "moduleName": "libraries_common_plugin"
+                    }, 
+                    {
+                        "moduleName": "leafModuleMin"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "org.checkerframework:checker-compat-qual:2.5.5"
+                    }, 
+                    {
+                        "library": "io.reactivex.rxjava2:rxandroid:2.1.1"
+                    }, 
+                    {
+                        "library": "androidx.coordinatorlayout:coordinatorlayout:1.1.0"
+                    }
+                ], 
+                "androidBuildConfig": {
+                    "minSdkVersion": 21, 
+                    "targetSdkVersion": 28, 
+                    "compileSdkVersion": 28
+                }, 
+                "activityCount": 1, 
+                "moduleType": "android", 
+                "useKotlin": false
+            }, 
+            {
+                "useKotlin": false, 
+                "java": {
+                    "classesPerPackage": 65, 
+                    "packages": 1, 
+                    "methodsPerClass": 5, 
+                    "fieldsPerClass": 1
+                }, 
+                "generateTests": false, 
+                "dependencies": [
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "org.checkerframework:checker-compat-qual:2.5.5"
+                    }, 
+                    {
+                        "library": "io.reactivex.rxjava2:rxandroid:2.1.1"
+                    }, 
+                    {
+                        "library": "io.opentracing:opentracing-api:0.20.10"
+                    }, 
+                    {
+                        "library": "androidx.annotation:annotation-experimental:1.0.0-rc01"
+                    }
+                ], 
+                "moduleName": "libraries_foundation_performance_performance_core_v2"
+            }, 
+            {
+                "resourcesConfig": {
+                    "stringCount": 0.0, 
+                    "layoutCount": 0.0, 
+                    "imageCount": 0.0
+                }, 
+                "moduleName": "libraries_foundation_experiment_experiment", 
+                "java": {
+                    "classesPerPackage": 70, 
+                    "packages": 1, 
+                    "methodsPerClass": 7, 
+                    "fieldsPerClass": 3
+                }, 
+                "generateTests": false, 
+                "dependencies": [
+                    {
+                        "moduleName": "tooling_program_analysis_error_prone_annotations"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_uava_types"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_threading_futures"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_storage_keyvaluestore"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_shape_shape"
+                    }, 
+                    {
+                        "moduleName": "leafModuleMax"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_lumber_lumber_logger"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_experiment_proto"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_experiment_experiment_models"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_experiment_experiment_api"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_experiment_experiment_annotations"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_codeanalysis"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "org.jetbrains.intellij.deps:trove4j:1.0.20181211"
+                    }, 
+                    {
+                        "library": "org.checkerframework:checker-compat-qual:2.5.5"
+                    }, 
+                    {
+                        "library": "io.reactivex.rxjava2:rxandroid:2.1.1"
+                    }, 
+                    {
+                        "library": "io.reactivex:rxandroid:1.2.1"
+                    }, 
+                    {
+                        "library": "com.squareup.retrofit2:adapter-rxjava:2.6.0"
+                    }, 
+                    {
+                        "library": "com.squareup.retrofit:converter-protobuf:1.9.0"
+                    }, 
+                    {
+                        "library": "com.squareup.moshi:moshi-adapters:1.10.0"
+                    }, 
+                    {
+                        "library": "com.jakewharton.rxrelay2:rxrelay:2.1.0"
+                    }, 
+                    {
+                        "library": "com.jakewharton.rxrelay:rxrelay:1.2.0"
+                    }, 
+                    {
+                        "library": "com.github.akarnokd:rxjava2-extensions:0.20.10"
+                    }, 
+                    {
+                        "library": "androidx.legacy:legacy-support-core-ui:1.0.0"
+                    }, 
+                    {
+                        "library": "androidx.annotation:annotation-experimental:1.0.0-rc01"
+                    }
+                ], 
+                "androidBuildConfig": {
+                    "minSdkVersion": 21, 
+                    "targetSdkVersion": 28, 
+                    "compileSdkVersion": 28
+                }, 
+                "activityCount": 0, 
+                "moduleType": "android", 
+                "useKotlin": false
+            }, 
+            {
+                "useKotlin": false, 
+                "java": {
+                    "classesPerPackage": 4, 
+                    "packages": 1, 
+                    "methodsPerClass": 1, 
+                    "fieldsPerClass": 1
+                }, 
+                "generateTests": false, 
+                "dependencies": [
+                    {
+                        "moduleName": "tooling_program_analysis_supereffective_qual"
+                    }, 
+                    {
+                        "moduleName": "leafModuleMax"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_lumber_lumber_logger"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "org.checkerframework:checker-compat-qual:2.5.5"
+                    }, 
+                    {
+                        "library": "androidx.annotation:annotation-experimental:1.0.0-rc01"
+                    }
+                ], 
+                "moduleName": "libraries_foundation_codeanalysis"
+            }, 
+            {
+                "useKotlin": false, 
+                "java": {
+                    "classesPerPackage": 7, 
+                    "packages": 1, 
+                    "methodsPerClass": 4, 
+                    "fieldsPerClass": 1
+                }, 
+                "generateTests": false, 
+                "dependencies": [
+                    {
+                        "moduleName": "leafModuleMax"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "org.checkerframework:checker-compat-qual:2.5.5"
+                    }, 
+                    {
+                        "library": "io.reactivex.rxjava2:rxandroid:2.1.1"
+                    }, 
+                    {
+                        "library": "androidx.annotation:annotation-experimental:1.0.0-rc01"
+                    }
+                ], 
+                "moduleName": "libraries_foundation_uava_adapters_gson"
+            }, 
+            {
+                "useKotlin": false, 
+                "java": {
+                    "classesPerPackage": 51, 
+                    "packages": 1, 
+                    "methodsPerClass": 4, 
+                    "fieldsPerClass": 1
+                }, 
+                "generateTests": false, 
+                "dependencies": [
+                    {
+                        "moduleName": "libraries_foundation_rx_java_v2"
+                    }, 
+                    {
+                        "moduleName": "leafModuleMax"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_dagger_android_extras"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_codeanalysis"
+                    }, 
+                    {
+                        "library": "org.reactivestreams:reactive-streams:1.0.2"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "org.checkerframework:checker-compat-qual:2.5.5"
+                    }, 
+                    {
+                        "library": "javax.inject:javax.inject:1"
+                    }, 
+                    {
+                        "library": "io.reactivex.rxjava2:rxandroid:2.1.1"
+                    }, 
+                    {
+                        "library": "com.jakewharton.rxrelay2:rxrelay:2.1.0"
+                    }, 
+                    {
+                        "library": "androidx.annotation:annotation-experimental:1.0.0-rc01"
+                    }
+                ], 
+                "moduleName": "libraries_foundation_rib_rib_base"
+            }, 
+            {
+                "resourcesConfig": {
+                    "stringCount": 0.0, 
+                    "layoutCount": 0.0, 
+                    "imageCount": 0.0
+                }, 
+                "moduleName": "libraries_common_map_utils", 
+                "java": {
+                    "classesPerPackage": 13, 
+                    "packages": 1, 
+                    "methodsPerClass": 8, 
+                    "fieldsPerClass": 2
+                }, 
+                "generateTests": false, 
+                "dependencies": [
+                    {
+                        "moduleName": "leafModuleMax"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "androidx.legacy:legacy-support-core-ui:1.0.0"
+                    }
+                ], 
+                "androidBuildConfig": {
+                    "minSdkVersion": 21, 
+                    "targetSdkVersion": 28, 
+                    "compileSdkVersion": 28
+                }, 
+                "activityCount": 0, 
+                "moduleType": "android", 
+                "useKotlin": false
+            }, 
+            {
+                "resourcesConfig": {
+                    "stringCount": 0.0, 
+                    "layoutCount": 0.0, 
+                    "imageCount": 0.0
+                }, 
+                "useKotlin": true, 
+                "generateTests": false, 
+                "dependencies": [
+                    {
+                        "moduleName": "tooling_program_analysis_error_prone_annotations"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_uava_adapters_moshi"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_uava_adapters_gson"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_modelgen_jenga_jenga_runtime_moshi"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_modelgen_jenga_jenga_runtime_gson"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_modelgen_jenga_jenga_runtime"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_lumber_lumber_logger"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "javax.inject:javax.inject:1"
+                    }, 
+                    {
+                        "library": "javax.annotation:javax.annotation-api:1.3.2"
+                    }, 
+                    {
+                        "library": "com.squareup.wire:wire-compiler:3.0.0-rc01"
+                    }, 
+                    {
+                        "library": "androidx.annotation:annotation-experimental:1.0.0-rc01"
+                    }
+                ], 
+                "kotlin": {
+                    "classesPerPackage": 24, 
+                    "packages": 1, 
+                    "methodsPerClass": 6, 
+                    "fieldsPerClass": 11
+                }, 
+                "activityCount": 0, 
+                "moduleType": "android", 
+                "androidBuildConfig": {
+                    "minSdkVersion": 21, 
+                    "targetSdkVersion": 28, 
+                    "compileSdkVersion": 28
+                }, 
+                "moduleName": "model_types_common_ui__color"
+            }, 
+            {
+                "resourcesConfig": {
+                    "stringCount": 6.0, 
+                    "layoutCount": 31.0, 
+                    "imageCount": 79.0
+                }, 
+                "useKotlin": true, 
+                "generateTests": false, 
+                "dependencies": [
+                    {
+                        "moduleName": "tooling_program_analysis_error_prone_annotations"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_ui_uview"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_ui_ui_utils"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_ui_ui_theme"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_ui_ui_statusbar"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_ui_ui_realtime_platform"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_ui_ui_legacy_ui"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_ui_ui_font"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_ui_ui_deprecated_floatinglabeltext"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_ui_ui_annotations"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_ui_ui_animation"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_ui_icons"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_rx_java_v2"
+                    }, 
+                    {
+                        "moduleName": "leafModuleMax"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_lumber_lumber_logger"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_localization_localization"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_codeanalysis"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "org.jetbrains.intellij.deps:trove4j:1.0.20181211"
+                    }, 
+                    {
+                        "library": "org.checkerframework:checker-compat-qual:2.5.5"
+                    }, 
+                    {
+                        "library": "io.reactivex.rxjava2:rxandroid:2.1.1"
+                    }, 
+                    {
+                        "library": "io.reactivex.rxjava2:rxandroid:2.1.1"
+                    }, 
+                    {
+                        "library": "io.github.inflationx:calligraphy3:3.1.1"
+                    }, 
+                    {
+                        "library": "com.squareup.picasso:picasso:2.71828"
+                    }, 
+                    {
+                        "library": "androidx.legacy:legacy-support-core-ui:1.0.0"
+                    }, 
+                    {
+                        "library": "androidx.legacy:legacy-support-core-ui:1.0.0"
+                    }, 
+                    {
+                        "library": "androidx.fragment:fragment:1.2.0"
+                    }, 
+                    {
+                        "library": "androidx.core:core-ktx:1.3.0"
+                    }, 
+                    {
+                        "library": "androidx.core:core-ktx:1.3.0"
+                    }, 
+                    {
+                        "library": "androidx.coordinatorlayout:coordinatorlayout:1.1.0"
+                    }, 
+                    {
+                        "library": "androidx.appcompat:appcompat-resources:1.2.0"
+                    }, 
+                    {
+                        "library": "androidx.annotation:annotation-experimental:1.0.0-rc01"
+                    }
+                ], 
+                "kotlin": {
+                    "classesPerPackage": 183, 
+                    "packages": 1, 
+                    "methodsPerClass": 8, 
+                    "fieldsPerClass": 2
+                }, 
+                "activityCount": 0, 
+                "moduleType": "android", 
+                "androidBuildConfig": {
+                    "minSdkVersion": 21, 
+                    "targetSdkVersion": 28, 
+                    "compileSdkVersion": 28
+                }, 
+                "moduleName": "libraries_foundation_ui_ui_core"
+            }, 
+            {
+                "resourcesConfig": {
+                    "stringCount": 1.0, 
+                    "layoutCount": 0.0, 
+                    "imageCount": 0.0
+                }, 
+                "moduleName": "libraries_foundation_rib_rib_android", 
+                "java": {
+                    "classesPerPackage": 29, 
+                    "packages": 1, 
+                    "methodsPerClass": 4, 
+                    "fieldsPerClass": 2
+                }, 
+                "generateTests": false, 
+                "dependencies": [
+                    {
+                        "moduleName": "libraries_foundation_rib_rib_base"
+                    }, 
+                    {
+                        "moduleName": "leafModuleMax"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_core_core"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_codeanalysis"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "org.checkerframework:checker-compat-qual:2.5.5"
+                    }, 
+                    {
+                        "library": "javax.inject:javax.inject:1"
+                    }, 
+                    {
+                        "library": "io.reactivex.rxjava2:rxandroid:2.1.1"
+                    }, 
+                    {
+                        "library": "io.reactivex.rxjava2:rxandroid:2.1.1"
+                    }, 
+                    {
+                        "library": "com.jakewharton.timber:timber:4.7.0"
+                    }, 
+                    {
+                        "library": "com.jakewharton.rxrelay2:rxrelay:2.1.0"
+                    }, 
+                    {
+                        "library": "androidx.legacy:legacy-support-core-ui:1.0.0"
+                    }, 
+                    {
+                        "library": "androidx.legacy:legacy-support-core-ui:1.0.0"
+                    }, 
+                    {
+                        "library": "androidx.fragment:fragment:1.2.0"
+                    }, 
+                    {
+                        "library": "androidx.core:core-ktx:1.3.0"
+                    }, 
+                    {
+                        "library": "androidx.appcompat:appcompat-resources:1.2.0"
+                    }, 
+                    {
+                        "library": "androidx.annotation:annotation-experimental:1.0.0-rc01"
+                    }
+                ], 
+                "androidBuildConfig": {
+                    "minSdkVersion": 21, 
+                    "targetSdkVersion": 28, 
+                    "compileSdkVersion": 28
+                }, 
+                "activityCount": 0, 
+                "moduleType": "android", 
+                "useKotlin": false
+            }, 
+            {
+                "resourcesConfig": {
+                    "stringCount": 0.0, 
+                    "layoutCount": 0.0, 
+                    "imageCount": 0.0
+                }, 
+                "moduleName": "libraries_foundation_portal_portal", 
+                "java": {
+                    "classesPerPackage": 3, 
+                    "packages": 1, 
+                    "methodsPerClass": 2, 
+                    "fieldsPerClass": 1
+                }, 
+                "generateTests": false, 
+                "dependencies": [
+                    {
+                        "moduleName": "leafModuleMax"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "javax.inject:javax.inject:1"
+                    }, 
+                    {
+                        "library": "androidx.annotation:annotation-experimental:1.0.0-rc01"
+                    }
+                ], 
+                "androidBuildConfig": {
+                    "minSdkVersion": 21, 
+                    "targetSdkVersion": 28, 
+                    "compileSdkVersion": 28
+                }, 
+                "activityCount": 0, 
+                "moduleType": "android", 
+                "useKotlin": false
+            }, 
+            {
+                "resourcesConfig": {
+                    "stringCount": 0.0, 
+                    "layoutCount": 0.0, 
+                    "imageCount": 0.0
+                }, 
+                "moduleName": "libraries_common_rider_behaviors", 
+                "java": {
+                    "classesPerPackage": 37, 
+                    "packages": 1, 
+                    "methodsPerClass": 6, 
+                    "fieldsPerClass": 2
+                }, 
+                "generateTests": false, 
+                "dependencies": [
+                    {
+                        "moduleName": "libraries_foundation_ui_ui_legacy_ui"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_ui_ui_core"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_ui_ui_animation"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_rx_java_v2"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_rib_rib_base"
+                    }, 
+                    {
+                        "moduleName": "leafModuleMax"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_lumber_lumber_logger"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_experiment_experiment_api"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_experiment_experiment_annotations"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_experiment_experiment"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_codeanalysis"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_analytics_analytics"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "org.checkerframework:checker-compat-qual:2.5.5"
+                    }, 
+                    {
+                        "library": "javax.inject:javax.inject:1"
+                    }, 
+                    {
+                        "library": "io.reactivex.rxjava2:rxandroid:2.1.1"
+                    }, 
+                    {
+                        "library": "io.reactivex.rxjava2:rxandroid:2.1.1"
+                    }, 
+                    {
+                        "library": "com.jakewharton.timber:timber:4.7.0"
+                    }, 
+                    {
+                        "library": "com.jakewharton.rxrelay2:rxrelay:2.1.0"
+                    }, 
+                    {
+                        "library": "androidx.legacy:legacy-support-core-ui:1.0.0"
+                    }, 
+                    {
+                        "library": "androidx.legacy:legacy-support-core-ui:1.0.0"
+                    }, 
+                    {
+                        "library": "androidx.fragment:fragment:1.2.0"
+                    }, 
+                    {
+                        "library": "androidx.core:core-ktx:1.3.0"
+                    }, 
+                    {
+                        "library": "androidx.coordinatorlayout:coordinatorlayout:1.1.0"
+                    }, 
+                    {
+                        "library": "androidx.appcompat:appcompat-resources:1.2.0"
+                    }, 
+                    {
+                        "library": "androidx.annotation:annotation-experimental:1.0.0-rc01"
+                    }
+                ], 
+                "androidBuildConfig": {
+                    "minSdkVersion": 21, 
+                    "targetSdkVersion": 28, 
+                    "compileSdkVersion": 28
+                }, 
+                "activityCount": 0, 
+                "moduleType": "android", 
+                "useKotlin": false
+            }, 
+            {
+                "useKotlin": false, 
+                "java": {
+                    "classesPerPackage": 6, 
+                    "packages": 1, 
+                    "methodsPerClass": 1, 
+                    "fieldsPerClass": 1
+                }, 
+                "generateTests": false, 
+                "dependencies": [
+                    {
+                        "library": "org.checkerframework:checker-compat-qual:2.5.5"
+                    }
+                ], 
+                "moduleName": "tooling_program_analysis_supereffective_qual"
+            }, 
+            {
+                "resourcesConfig": {
+                    "stringCount": 0.0, 
+                    "layoutCount": 0.0, 
+                    "imageCount": 0.0
+                }, 
+                "moduleName": "libraries_foundation_realtime_presidio_realtime", 
+                "java": {
+                    "classesPerPackage": 137, 
+                    "packages": 1, 
+                    "methodsPerClass": 4, 
+                    "fieldsPerClass": 1
+                }, 
+                "generateTests": false, 
+                "dependencies": [
+                    {
+                        "moduleName": "tooling_program_analysis_supereffective_qual"
+                    }, 
+                    {
+                        "moduleName": "tooling_program_analysis_error_prone_annotations"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_uava_clock"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_realtime_retrofit_adapters_adapter_networkexception"
+                    }, 
+                    {
+                        "moduleName": "leafModuleMax"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_network_network"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_lumber_lumber_logger"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_experiment_experiment_api"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_experiment_experiment"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_codeanalysis"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "org.checkerframework:checker-compat-qual:2.5.5"
+                    }, 
+                    {
+                        "library": "javax.inject:javax.inject:1"
+                    }, 
+                    {
+                        "library": "javax.annotation:javax.annotation-api:1.3.2"
+                    }, 
+                    {
+                        "library": "io.reactivex.rxjava2:rxandroid:2.1.1"
+                    }, 
+                    {
+                        "library": "io.reactivex:rxandroid:1.2.1"
+                    }, 
+                    {
+                        "library": "com.squareup.retrofit2:adapter-rxjava:2.6.0"
+                    }, 
+                    {
+                        "library": "com.squareup.retrofit2:adapter-rxjava:2.6.0"
+                    }, 
+                    {
+                        "library": "com.squareup.moshi:moshi-adapters:1.10.0"
+                    }, 
+                    {
+                        "library": "com.ryanharter.auto.value:auto-value-gson-runtime:1.2.0"
+                    }, 
+                    {
+                        "library": "com.jakewharton.rxrelay2:rxrelay:2.1.0"
+                    }, 
+                    {
+                        "library": "com.jakewharton.rxrelay:rxrelay:1.2.0"
+                    }, 
+                    {
+                        "library": "com.github.akarnokd:rxjava2-extensions:0.20.10"
+                    }, 
+                    {
+                        "library": "androidx.core:core-ktx:1.3.0"
+                    }, 
+                    {
+                        "library": "androidx.annotation:annotation-experimental:1.0.0-rc01"
+                    }
+                ], 
+                "androidBuildConfig": {
+                    "minSdkVersion": 21, 
+                    "targetSdkVersion": 28, 
+                    "compileSdkVersion": 28
+                }, 
+                "activityCount": 0, 
+                "moduleType": "android", 
+                "useKotlin": false
+            }, 
+            {
+                "resourcesConfig": {
+                    "stringCount": 0.0, 
+                    "layoutCount": 0.0, 
+                    "imageCount": 0.0
+                }, 
+                "moduleName": "thrift_models_analyticsV2_projects_app_helix_rider_core", 
+                "java": {
+                    "classesPerPackage": 217, 
+                    "packages": 1, 
+                    "methodsPerClass": 9, 
+                    "fieldsPerClass": 2
+                }, 
+                "generateTests": false, 
+                "dependencies": [
+                    {
+                        "moduleName": "tooling_program_analysis_error_prone_annotations"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_modelgen_jenga_jenga_runtime"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_analytics_extension"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "javax.inject:javax.inject:1"
+                    }, 
+                    {
+                        "library": "javax.annotation:javax.annotation-api:1.3.2"
+                    }, 
+                    {
+                        "library": "androidx.annotation:annotation-experimental:1.0.0-rc01"
+                    }
+                ], 
+                "androidBuildConfig": {
+                    "minSdkVersion": 21, 
+                    "targetSdkVersion": 28, 
+                    "compileSdkVersion": 28
+                }, 
+                "activityCount": 0, 
+                "moduleType": "android", 
+                "useKotlin": false
+            }, 
+            {
+                "useKotlin": false, 
+                "java": {
+                    "classesPerPackage": 5, 
+                    "packages": 1, 
+                    "methodsPerClass": 6, 
+                    "fieldsPerClass": 1
+                }, 
+                "generateTests": false, 
+                "dependencies": [
+                    {
+                        "moduleName": "leafModuleMax"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_codeanalysis"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "org.checkerframework:checker-compat-qual:2.5.5"
+                    }, 
+                    {
+                        "library": "io.reactivex.rxjava2:rxandroid:2.1.1"
+                    }, 
+                    {
+                        "library": "com.squareup.okio:okio:2.7.0"
+                    }, 
+                    {
+                        "library": "com.squareup.moshi:moshi-adapters:1.10.0"
+                    }, 
+                    {
+                        "library": "com.squareup.moshi:moshi-adapters:1.10.0"
+                    }, 
+                    {
+                        "library": "androidx.annotation:annotation-experimental:1.0.0-rc01"
+                    }
+                ], 
+                "moduleName": "libraries_foundation_uava_adapters_moshi"
+            }, 
+            {
+                "resourcesConfig": {
+                    "stringCount": 0.0, 
+                    "layoutCount": 0.0, 
+                    "imageCount": 0.0
+                }, 
+                "moduleName": "thrift_models_analytics_projects_helix", 
+                "java": {
+                    "classesPerPackage": 1295, 
+                    "packages": 1, 
+                    "methodsPerClass": 10, 
+                    "fieldsPerClass": 2
+                }, 
+                "generateTests": false, 
+                "dependencies": [
+                    {
+                        "moduleName": "tooling_program_analysis_error_prone_annotations"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_modelgen_jenga_jenga_runtime"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_analytics_extension"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "javax.inject:javax.inject:1"
+                    }, 
+                    {
+                        "library": "javax.annotation:javax.annotation-api:1.3.2"
+                    }, 
+                    {
+                        "library": "androidx.annotation:annotation-experimental:1.0.0-rc01"
+                    }
+                ], 
+                "androidBuildConfig": {
+                    "minSdkVersion": 21, 
+                    "targetSdkVersion": 28, 
+                    "compileSdkVersion": 28
+                }, 
+                "activityCount": 0, 
+                "moduleType": "android", 
+                "useKotlin": false
+            }, 
+            {
+                "resourcesConfig": {
+                    "stringCount": 0.0, 
+                    "layoutCount": 0.0, 
+                    "imageCount": 0.0
+                }, 
+                "useKotlin": true, 
+                "generateTests": false, 
+                "dependencies": [
+                    {
+                        "moduleName": "tooling_program_analysis_error_prone_annotations"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_ui_uview"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_ui_ui_theme"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_ui_ui_statusbar"
+                    }, 
+                    {
+                        "moduleName": "leafModuleMax"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_lumber_lumber_logger"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "org.jetbrains.intellij.deps:trove4j:1.0.20181211"
+                    }, 
+                    {
+                        "library": "com.squareup.picasso:picasso:2.71828"
+                    }, 
+                    {
+                        "library": "androidx.core:core-ktx:1.3.0"
+                    }, 
+                    {
+                        "library": "androidx.annotation:annotation-experimental:1.0.0-rc01"
+                    }
+                ], 
+                "kotlin": {
+                    "classesPerPackage": 13, 
+                    "packages": 1, 
+                    "methodsPerClass": 10, 
+                    "fieldsPerClass": 1
+                }, 
+                "activityCount": 0, 
+                "moduleType": "android", 
+                "androidBuildConfig": {
+                    "minSdkVersion": 21, 
+                    "targetSdkVersion": 28, 
+                    "compileSdkVersion": 28
+                }, 
+                "moduleName": "libraries_foundation_ui_ui_utils"
+            }, 
+            {
+                "useKotlin": false, 
+                "java": {
+                    "classesPerPackage": 48, 
+                    "packages": 1, 
+                    "methodsPerClass": 5, 
+                    "fieldsPerClass": 1
+                }, 
+                "generateTests": false, 
+                "dependencies": [
+                    {
+                        "moduleName": "leafModuleMax"
+                    }, 
+                    {
+                        "library": "org.reactivestreams:reactive-streams:1.0.2"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "org.checkerframework:checker-compat-qual:2.5.5"
+                    }, 
+                    {
+                        "library": "io.reactivex.rxjava2:rxandroid:2.1.1"
+                    }, 
+                    {
+                        "library": "io.reactivex.rxjava2:rxandroid:2.1.1"
+                    }, 
+                    {
+                        "library": "androidx.annotation:annotation-experimental:1.0.0-rc01"
+                    }
+                ], 
+                "moduleName": "libraries_foundation_rx_java_v2"
+            }, 
+            {
+                "useKotlin": false, 
+                "java": {
+                    "classesPerPackage": 10, 
+                    "packages": 1, 
+                    "methodsPerClass": 5, 
+                    "fieldsPerClass": 1
+                }, 
+                "generateTests": false, 
+                "dependencies": [
+                    {
+                        "moduleName": "leafModuleMax"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "org.checkerframework:checker-compat-qual:2.5.5"
+                    }, 
+                    {
+                        "library": "com.squareup.retrofit2:adapter-rxjava:2.6.0"
+                    }
+                ], 
+                "moduleName": "libraries_foundation_realtime_retrofit_adapters_adapter_networkexception"
+            }, 
+            {
+                "useKotlin": false, 
+                "java": {
+                    "classesPerPackage": 1, 
+                    "packages": 1, 
+                    "methodsPerClass": 1, 
+                    "fieldsPerClass": 1
+                }, 
+                "generateTests": false, 
+                "dependencies": [
+                    {
+                        "moduleName": "leafModuleMax"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "org.checkerframework:checker-compat-qual:2.5.5"
+                    }
+                ], 
+                "moduleName": "libraries_common_presidio_banner"
+            }, 
+            {
+                "resourcesConfig": {
+                    "stringCount": 0.0, 
+                    "layoutCount": 0.0, 
+                    "imageCount": 0.0
+                }, 
+                "moduleName": "libraries_foundation_utils_identifiers", 
+                "java": {
+                    "classesPerPackage": 3, 
+                    "packages": 1, 
+                    "methodsPerClass": 3, 
+                    "fieldsPerClass": 2
+                }, 
+                "generateTests": false, 
+                "dependencies": [
+                    {
+                        "moduleName": "leafModuleMax"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_lumber_lumber_logger"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "androidx.annotation:annotation-experimental:1.0.0-rc01"
+                    }
+                ], 
+                "androidBuildConfig": {
+                    "minSdkVersion": 21, 
+                    "targetSdkVersion": 28, 
+                    "compileSdkVersion": 28
+                }, 
+                "activityCount": 0, 
+                "moduleType": "android", 
+                "useKotlin": false
+            }, 
+            {
+                "resourcesConfig": {
+                    "stringCount": 0.0, 
+                    "layoutCount": 0.0, 
+                    "imageCount": 0.0
+                }, 
+                "useKotlin": true, 
+                "generateTests": false, 
+                "dependencies": [
+                    {
+                        "moduleName": "tooling_program_analysis_error_prone_annotations"
+                    }, 
+                    {
+                        "moduleName": "model_types_common_ui__icon"
+                    }, 
+                    {
+                        "moduleName": "model_types_common_ui__dimens"
+                    }, 
+                    {
+                        "moduleName": "model_types_common_ui__color"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_uava_adapters_moshi"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_uava_adapters_gson"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_modelgen_jenga_jenga_runtime_moshi"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_modelgen_jenga_jenga_runtime_gson"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_modelgen_jenga_jenga_runtime"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_lumber_lumber_logger"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "javax.inject:javax.inject:1"
+                    }, 
+                    {
+                        "library": "javax.annotation:javax.annotation-api:1.3.2"
+                    }, 
+                    {
+                        "library": "com.squareup.wire:wire-compiler:3.0.0-rc01"
+                    }, 
+                    {
+                        "library": "androidx.annotation:annotation-experimental:1.0.0-rc01"
+                    }
+                ], 
+                "kotlin": {
+                    "classesPerPackage": 21, 
+                    "packages": 1, 
+                    "methodsPerClass": 8, 
+                    "fieldsPerClass": 2
+                }, 
+                "activityCount": 0, 
+                "moduleType": "android", 
+                "androidBuildConfig": {
+                    "minSdkVersion": 21, 
+                    "targetSdkVersion": 28, 
+                    "compileSdkVersion": 28
+                }, 
+                "moduleName": "model_types_common_ui_component__illustration"
+            }, 
+            {
+                "useKotlin": false, 
+                "java": {
+                    "classesPerPackage": 4, 
+                    "packages": 1, 
+                    "methodsPerClass": 2, 
+                    "fieldsPerClass": 1
+                }, 
+                "generateTests": false, 
+                "dependencies": [
+                    {
+                        "moduleName": "leafModuleMax"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_lumber_lumber_logger"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "org.checkerframework:checker-compat-qual:2.5.5"
+                    }, 
+                    {
+                        "library": "androidx.annotation:annotation-experimental:1.0.0-rc01"
+                    }
+                ], 
+                "moduleName": "libraries_foundation_threading_futures"
+            }, 
+            {
+                "resourcesConfig": {
+                    "stringCount": 0.0, 
+                    "layoutCount": 0.0, 
+                    "imageCount": 0.0
+                }, 
+                "useKotlin": true, 
+                "generateTests": false, 
+                "dependencies": [
+                    {
+                        "moduleName": "tooling_program_analysis_error_prone_annotations"
+                    }, 
+                    {
+                        "moduleName": "model_rtapi_models_exception__exception"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_uava_adapters_moshi"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_uava_adapters_gson"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_realtime_presidio_realtime"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_modelgen_jenga_jenga_runtime_moshi"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_modelgen_jenga_jenga_runtime_gson"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_modelgen_jenga_jenga_runtime"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_lumber_lumber_logger"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "javax.inject:javax.inject:1"
+                    }, 
+                    {
+                        "library": "javax.annotation:javax.annotation-api:1.3.2"
+                    }, 
+                    {
+                        "library": "io.reactivex.rxjava2:rxandroid:2.1.1"
+                    }, 
+                    {
+                        "library": "com.squareup.retrofit2:adapter-rxjava:2.6.0"
+                    }, 
+                    {
+                        "library": "androidx.annotation:annotation-experimental:1.0.0-rc01"
+                    }
+                ], 
+                "kotlin": {
+                    "classesPerPackage": 25, 
+                    "packages": 1, 
+                    "methodsPerClass": 6, 
+                    "fieldsPerClass": 1
+                }, 
+                "activityCount": 0, 
+                "moduleType": "android", 
+                "androidBuildConfig": {
+                    "minSdkVersion": 21, 
+                    "targetSdkVersion": 28, 
+                    "compileSdkVersion": 28
+                }, 
+                "moduleName": "model_rtapi_services_febreze__febreze"
+            }, 
+            {
+                "resourcesConfig": {
+                    "stringCount": 0.0, 
+                    "layoutCount": 0.0, 
+                    "imageCount": 0.0
+                }, 
+                "moduleName": "libraries_common_presidio_mode_api", 
+                "java": {
+                    "classesPerPackage": 38, 
+                    "packages": 1, 
+                    "methodsPerClass": 3, 
+                    "fieldsPerClass": 1
+                }, 
+                "generateTests": false, 
+                "dependencies": [
+                    {
+                        "moduleName": "libraries_foundation_rib_rib_workflow"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_rib_rib_base"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_rib_rib_android"
+                    }, 
+                    {
+                        "moduleName": "leafModuleMax"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_performance_performance_core_v2"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_lumber_lumber_logger"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_experiment_experiment_api"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_experiment_experiment_annotations"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_experiment_experiment"
+                    }, 
+                    {
+                        "moduleName": "libraries_common_view_extensions"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "org.checkerframework:checker-compat-qual:2.5.5"
+                    }, 
+                    {
+                        "library": "io.reactivex.rxjava2:rxandroid:2.1.1"
+                    }
+                ], 
+                "androidBuildConfig": {
+                    "minSdkVersion": 21, 
+                    "targetSdkVersion": 28, 
+                    "compileSdkVersion": 28
+                }, 
+                "activityCount": 0, 
+                "moduleType": "android", 
+                "useKotlin": false
+            }, 
+            {
+                "resourcesConfig": {
+                    "stringCount": 0.0, 
+                    "layoutCount": 0.0, 
+                    "imageCount": 0.0
+                }, 
+                "moduleName": "libraries_foundation_ui_ui_legacy_ui_validation", 
+                "java": {
+                    "classesPerPackage": 24, 
+                    "packages": 1, 
+                    "methodsPerClass": 3, 
+                    "fieldsPerClass": 1
+                }, 
+                "generateTests": false, 
+                "dependencies": [
+                    {
+                        "moduleName": "leafModuleMax"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "androidx.annotation:annotation-experimental:1.0.0-rc01"
+                    }
+                ], 
+                "androidBuildConfig": {
+                    "minSdkVersion": 21, 
+                    "targetSdkVersion": 28, 
+                    "compileSdkVersion": 28
+                }, 
+                "activityCount": 0, 
+                "moduleType": "android", 
+                "useKotlin": false
+            }, 
+            {
+                "useKotlin": false, 
+                "java": {
+                    "classesPerPackage": 1, 
+                    "packages": 1, 
+                    "methodsPerClass": 10, 
+                    "fieldsPerClass": 5
+                }, 
+                "generateTests": false, 
+                "dependencies": [
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }
+                ], 
+                "moduleName": "libraries_foundation_test_random"
+            }, 
+            {
+                "useKotlin": false, 
+                "java": {
+                    "classesPerPackage": 16, 
+                    "packages": 1, 
+                    "methodsPerClass": 21, 
+                    "fieldsPerClass": 2
+                }, 
+                "generateTests": false, 
+                "moduleName": "libraries_foundation_experiment_proto"
+            }, 
+            {
+                "resourcesConfig": {
+                    "stringCount": 0.0, 
+                    "layoutCount": 0.0, 
+                    "imageCount": 0.0
+                }, 
+                "useKotlin": true, 
+                "generateTests": false, 
+                "dependencies": [
+                    {
+                        "moduleName": "tooling_program_analysis_error_prone_annotations"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_uava_adapters_moshi"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_uava_adapters_gson"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_modelgen_jenga_jenga_runtime_moshi"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_modelgen_jenga_jenga_runtime_gson"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_modelgen_jenga_jenga_runtime"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_lumber_lumber_logger"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "javax.inject:javax.inject:1"
+                    }, 
+                    {
+                        "library": "javax.annotation:javax.annotation-api:1.3.2"
+                    }, 
+                    {
+                        "library": "com.squareup.wire:wire-compiler:3.0.0-rc01"
+                    }, 
+                    {
+                        "library": "androidx.annotation:annotation-experimental:1.0.0-rc01"
+                    }
+                ], 
+                "kotlin": {
+                    "classesPerPackage": 11, 
+                    "packages": 1, 
+                    "methodsPerClass": 6, 
+                    "fieldsPerClass": 5
+                }, 
+                "activityCount": 0, 
+                "moduleType": "android", 
+                "androidBuildConfig": {
+                    "minSdkVersion": 21, 
+                    "targetSdkVersion": 28, 
+                    "compileSdkVersion": 28
+                }, 
+                "moduleName": "model_types_common_ui__font"
+            }, 
+            {
+                "resourcesConfig": {
+                    "stringCount": 0.0, 
+                    "layoutCount": 0.0, 
+                    "imageCount": 0.0
+                }, 
+                "useKotlin": true, 
+                "generateTests": false, 
+                "dependencies": [
+                    {
+                        "moduleName": "tooling_program_analysis_error_prone_annotations"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_uava_adapters_moshi"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_uava_adapters_gson"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_modelgen_jenga_jenga_runtime_moshi"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_modelgen_jenga_jenga_runtime_gson"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_modelgen_jenga_jenga_runtime"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_lumber_lumber_logger"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "javax.inject:javax.inject:1"
+                    }, 
+                    {
+                        "library": "javax.annotation:javax.annotation-api:1.3.2"
+                    }, 
+                    {
+                        "library": "com.squareup.wire:wire-compiler:3.0.0-rc01"
+                    }, 
+                    {
+                        "library": "androidx.annotation:annotation-experimental:1.0.0-rc01"
+                    }
+                ], 
+                "kotlin": {
+                    "classesPerPackage": 11, 
+                    "packages": 1, 
+                    "methodsPerClass": 6, 
+                    "fieldsPerClass": 5
+                }, 
+                "activityCount": 0, 
+                "moduleType": "android", 
+                "androidBuildConfig": {
+                    "minSdkVersion": 21, 
+                    "targetSdkVersion": 28, 
+                    "compileSdkVersion": 28
+                }, 
+                "moduleName": "model_edge_models_types_common_ui__font"
+            }, 
+            {
+                "kotlin": {
+                    "classesPerPackage": 10, 
+                    "packages": 1, 
+                    "methodsPerClass": 5, 
+                    "fieldsPerClass": 3
+                }, 
+                "useKotlin": true, 
+                "generateTests": false, 
+                "dependencies": [
+                    {
+                        "moduleName": "libraries_foundation_modelgen_jenga_jenga_runtime"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_lumber_lumber_logger"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "androidx.annotation:annotation-experimental:1.0.0-rc01"
+                    }
+                ], 
+                "moduleName": "libraries_foundation_analytics_extension"
+            }, 
+            {
+                "resourcesConfig": {
+                    "stringCount": 0.0, 
+                    "layoutCount": 0.0, 
+                    "imageCount": 550.0
+                }, 
+                "moduleName": "libraries_foundation_ui_icons", 
+                "java": {
+                    "classesPerPackage": 1, 
+                    "packages": 1, 
+                    "methodsPerClass": 1, 
+                    "fieldsPerClass": 1
+                }, 
+                "generateTests": false, 
+                "dependencies": [
+                    {
+                        "moduleName": "libraries_foundation_ui_ui_theme"
+                    }, 
+                    {
+                        "moduleName": "leafModuleMax"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_lumber_lumber_logger"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "androidx.annotation:annotation-experimental:1.0.0-rc01"
+                    }
+                ], 
+                "androidBuildConfig": {
+                    "minSdkVersion": 21, 
+                    "targetSdkVersion": 28, 
+                    "compileSdkVersion": 28
+                }, 
+                "activityCount": 0, 
+                "moduleType": "android", 
+                "useKotlin": false
+            }, 
+            {
+                "useKotlin": false, 
+                "java": {
+                    "classesPerPackage": 6, 
+                    "packages": 1, 
+                    "methodsPerClass": 1, 
+                    "fieldsPerClass": 1
+                }, 
+                "generateTests": false, 
+                "dependencies": [
+                    {
+                        "library": "org.checkerframework:checker-compat-qual:2.5.5"
+                    }
+                ], 
+                "moduleName": "tooling_program_analysis_error_prone_annotations"
+            }, 
+            {
+                "resourcesConfig": {
+                    "stringCount": 0.0, 
+                    "layoutCount": 0.0, 
+                    "imageCount": 0.0
+                }, 
+                "moduleName": "libraries_foundation_core_core_app_delegate", 
+                "java": {
+                    "classesPerPackage": 2, 
+                    "packages": 1, 
+                    "methodsPerClass": 1, 
+                    "fieldsPerClass": 1
+                }, 
+                "generateTests": false, 
+                "dependencies": [
+                    {
+                        "moduleName": "libraries_foundation_portal_portal"
+                    }, 
+                    {
+                        "moduleName": "leafModuleMax"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_dagger_android_extras"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "org.checkerframework:checker-compat-qual:2.5.5"
+                    }, 
+                    {
+                        "library": "androidx.annotation:annotation-experimental:1.0.0-rc01"
+                    }
+                ], 
+                "androidBuildConfig": {
+                    "minSdkVersion": 21, 
+                    "targetSdkVersion": 28, 
+                    "compileSdkVersion": 28
+                }, 
+                "activityCount": 0, 
+                "moduleType": "android", 
+                "useKotlin": false
+            }, 
+            {
+                "kotlin": {
+                    "classesPerPackage": 42, 
+                    "packages": 1, 
+                    "methodsPerClass": 3, 
+                    "fieldsPerClass": 1
+                }, 
+                "useKotlin": true, 
+                "generateTests": false, 
+                "dependencies": [
+                    {
+                        "moduleName": "libraries_foundation_test_random"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "com.squareup.okio:okio:2.7.0"
+                    }, 
+                    {
+                        "library": "androidx.annotation:annotation-experimental:1.0.0-rc01"
+                    }
+                ], 
+                "moduleName": "libraries_foundation_modelgen_jenga_jenga_runtime"
+            }, 
+            {
+                "resourcesConfig": {
+                    "stringCount": 0.0, 
+                    "layoutCount": 0.0, 
+                    "imageCount": 0.0
+                }, 
+                "useKotlin": true, 
+                "generateTests": false, 
+                "dependencies": [
+                    {
+                        "moduleName": "tooling_program_analysis_error_prone_annotations"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_uava_adapters_moshi"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_uava_adapters_gson"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_modelgen_jenga_jenga_runtime_moshi"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_modelgen_jenga_jenga_runtime_gson"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_modelgen_jenga_jenga_runtime"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_lumber_lumber_logger"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "javax.inject:javax.inject:1"
+                    }, 
+                    {
+                        "library": "javax.annotation:javax.annotation-api:1.3.2"
+                    }, 
+                    {
+                        "library": "androidx.annotation:annotation-experimental:1.0.0-rc01"
+                    }
+                ], 
+                "kotlin": {
+                    "classesPerPackage": 134, 
+                    "packages": 1, 
+                    "methodsPerClass": 6, 
+                    "fieldsPerClass": 1
+                }, 
+                "activityCount": 0, 
+                "moduleType": "android", 
+                "androidBuildConfig": {
+                    "minSdkVersion": 21, 
+                    "targetSdkVersion": 28, 
+                    "compileSdkVersion": 28
+                }, 
+                "moduleName": "model_rtapi_models_exception__exception"
+            }, 
+            {
+                "resourcesConfig": {
+                    "stringCount": 0.0, 
+                    "layoutCount": 0.0, 
+                    "imageCount": 0.0
+                }, 
+                "moduleName": "libraries_common_plugin", 
+                "java": {
+                    "classesPerPackage": 42, 
+                    "packages": 1, 
+                    "methodsPerClass": 5, 
+                    "fieldsPerClass": 1
+                }, 
+                "generateTests": false, 
+                "dependencies": [
+                    {
+                        "moduleName": "libraries_foundation_storage_keyvaluestore"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_shape_shape"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_rib_rib_base"
+                    }, 
+                    {
+                        "moduleName": "leafModuleMax"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_experiment_experiment_api"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_experiment_experiment"
+                    }, 
+                    {
+                        "library": "org.reactivestreams:reactive-streams:1.0.2"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "org.checkerframework:checker-compat-qual:2.5.5"
+                    }, 
+                    {
+                        "library": "javax.inject:javax.inject:1"
+                    }, 
+                    {
+                        "library": "io.reactivex.rxjava2:rxandroid:2.1.1"
+                    }, 
+                    {
+                        "library": "io.reactivex.rxjava2:rxandroid:2.1.1"
+                    }, 
+                    {
+                        "library": "androidx.core:core-ktx:1.3.0"
+                    }, 
+                    {
+                        "library": "androidx.appcompat:appcompat-resources:1.2.0"
+                    }, 
+                    {
+                        "library": "androidx.annotation:annotation-experimental:1.0.0-rc01"
+                    }
+                ], 
+                "androidBuildConfig": {
+                    "minSdkVersion": 21, 
+                    "targetSdkVersion": 28, 
+                    "compileSdkVersion": 28
+                }, 
+                "activityCount": 0, 
+                "moduleType": "android", 
+                "useKotlin": false
+            }, 
+            {
+                "resourcesConfig": {
+                    "stringCount": 7.0, 
+                    "layoutCount": 1.0, 
+                    "imageCount": 3.0
+                }, 
+                "useKotlin": true, 
+                "generateTests": false, 
+                "dependencies": [
+                    {
+                        "moduleName": "tooling_program_analysis_supereffective_qual"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_ui_ui_font"
+                    }, 
+                    {
+                        "moduleName": "leafModuleMax"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_codeanalysis"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "org.checkerframework:checker-compat-qual:2.5.5"
+                    }, 
+                    {
+                        "library": "javax.annotation:javax.annotation-api:1.3.2"
+                    }, 
+                    {
+                        "library": "io.reactivex.rxjava2:rxandroid:2.1.1"
+                    }, 
+                    {
+                        "library": "io.reactivex.rxjava2:rxandroid:2.1.1"
+                    }, 
+                    {
+                        "library": "io.github.inflationx:calligraphy3:3.1.1"
+                    }, 
+                    {
+                        "library": "com.jakewharton.timber:timber:4.7.0"
+                    }, 
+                    {
+                        "library": "com.jakewharton.rxrelay2:rxrelay:2.1.0"
+                    }, 
+                    {
+                        "library": "com.jakewharton.rxbinding2:rxbinding-appcompat-v7:2.2.0"
+                    }, 
+                    {
+                        "library": "com.jakewharton.rxbinding2:rxbinding-appcompat-v7:2.2.0"
+                    }, 
+                    {
+                        "library": "com.jakewharton.rxbinding2:rxbinding-appcompat-v7:2.2.0"
+                    }, 
+                    {
+                        "library": "com.jakewharton.rxbinding2:rxbinding-appcompat-v7:2.2.0"
+                    }, 
+                    {
+                        "library": "com.jakewharton.rxbinding2:rxbinding-appcompat-v7:2.2.0"
+                    }, 
+                    {
+                        "library": "androidx.recyclerview:recyclerview:1.1.0"
+                    }, 
+                    {
+                        "library": "androidx.legacy:legacy-support-core-ui:1.0.0"
+                    }, 
+                    {
+                        "library": "androidx.legacy:legacy-support-core-ui:1.0.0"
+                    }, 
+                    {
+                        "library": "androidx.fragment:fragment:1.2.0"
+                    }, 
+                    {
+                        "library": "androidx.core:core-ktx:1.3.0"
+                    }, 
+                    {
+                        "library": "androidx.coordinatorlayout:coordinatorlayout:1.1.0"
+                    }, 
+                    {
+                        "library": "androidx.constraintlayout:constraintlayout:1.1.3"
+                    }, 
+                    {
+                        "library": "androidx.cardview:cardview:1.0.0"
+                    }, 
+                    {
+                        "library": "androidx.appcompat:appcompat-resources:1.2.0"
+                    }, 
+                    {
+                        "library": "androidx.annotation:annotation-experimental:1.0.0-rc01"
+                    }
+                ], 
+                "kotlin": {
+                    "classesPerPackage": 208, 
+                    "packages": 1, 
+                    "methodsPerClass": 12, 
+                    "fieldsPerClass": 5
+                }, 
+                "activityCount": 0, 
+                "moduleType": "android", 
+                "androidBuildConfig": {
+                    "minSdkVersion": 21, 
+                    "targetSdkVersion": 28, 
+                    "compileSdkVersion": 28
+                }, 
+                "moduleName": "libraries_foundation_ui_uview"
+            }, 
+            {
+                "resourcesConfig": {
+                    "stringCount": 0.0, 
+                    "layoutCount": 0.0, 
+                    "imageCount": 0.0
+                }, 
+                "moduleName": "libraries_foundation_storage_deprecated_persisted_keyvaluestore", 
+                "java": {
+                    "classesPerPackage": 2, 
+                    "packages": 1, 
+                    "methodsPerClass": 2, 
+                    "fieldsPerClass": 5
+                }, 
+                "generateTests": false, 
+                "dependencies": [
+                    {
+                        "moduleName": "libraries_foundation_storage_keyvaluestore"
+                    }, 
+                    {
+                        "moduleName": "leafModuleMax"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "javax.inject:javax.inject:1"
+                    }
+                ], 
+                "androidBuildConfig": {
+                    "minSdkVersion": 21, 
+                    "targetSdkVersion": 28, 
+                    "compileSdkVersion": 28
+                }, 
+                "activityCount": 0, 
+                "moduleType": "android", 
+                "useKotlin": false
+            }, 
+            {
+                "useKotlin": false, 
+                "java": {
+                    "classesPerPackage": 7, 
+                    "packages": 1, 
+                    "methodsPerClass": 2, 
+                    "fieldsPerClass": 1
+                }, 
+                "generateTests": false, 
+                "dependencies": [
+                    {
+                        "moduleName": "leafModuleMax"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "org.checkerframework:checker-compat-qual:2.5.5"
+                    }, 
+                    {
+                        "library": "androidx.annotation:annotation-experimental:1.0.0-rc01"
+                    }
+                ], 
+                "moduleName": "libraries_foundation_shape_shape"
+            }, 
+            {
+                "resourcesConfig": {
+                    "stringCount": 0.0, 
+                    "layoutCount": 0.0, 
+                    "imageCount": 0.0
+                }, 
+                "moduleName": "libraries_foundation_analytics_analytics", 
+                "java": {
+                    "classesPerPackage": 10, 
+                    "packages": 1, 
+                    "methodsPerClass": 5, 
+                    "fieldsPerClass": 1
+                }, 
+                "generateTests": false, 
+                "dependencies": [
+                    {
+                        "moduleName": "thrift_models_analytics_projects_permissions"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_storage_keyvaluestore"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_storage_deprecated_persisted_keyvaluestore"
+                    }, 
+                    {
+                        "moduleName": "leafModuleMax"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_modelgen_jenga_jenga_runtime"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_lumber_lumber_logger"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_core_core"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_analytics_extension"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "org.checkerframework:checker-compat-qual:2.5.5"
+                    }, 
+                    {
+                        "library": "io.reactivex.rxjava2:rxandroid:2.1.1"
+                    }, 
+                    {
+                        "library": "com.jakewharton.rxrelay2:rxrelay:2.1.0"
+                    }, 
+                    {
+                        "library": "androidx.legacy:legacy-support-core-ui:1.0.0"
+                    }, 
+                    {
+                        "library": "androidx.legacy:legacy-support-core-ui:1.0.0"
+                    }, 
+                    {
+                        "library": "androidx.fragment:fragment:1.2.0"
+                    }, 
+                    {
+                        "library": "androidx.core:core-ktx:1.3.0"
+                    }, 
+                    {
+                        "library": "androidx.annotation:annotation-experimental:1.0.0-rc01"
+                    }
+                ], 
+                "androidBuildConfig": {
+                    "minSdkVersion": 21, 
+                    "targetSdkVersion": 28, 
+                    "compileSdkVersion": 28
+                }, 
+                "activityCount": 0, 
+                "moduleType": "android", 
+                "useKotlin": false
+            }, 
+            {
+                "resourcesConfig": {
+                    "stringCount": 23.0, 
+                    "layoutCount": 0.0, 
+                    "imageCount": 0.0
+                }, 
+                "moduleName": "libraries_foundation_ui_ui_font", 
+                "java": {
+                    "classesPerPackage": 2, 
+                    "packages": 1, 
+                    "methodsPerClass": 5, 
+                    "fieldsPerClass": 1
+                }, 
+                "generateTests": false, 
+                "dependencies": [
+                    {
+                        "moduleName": "leafModuleMax"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "io.github.inflationx:calligraphy3:3.1.1"
+                    }, 
+                    {
+                        "library": "androidx.annotation:annotation-experimental:1.0.0-rc01"
+                    }
+                ], 
+                "androidBuildConfig": {
+                    "minSdkVersion": 21, 
+                    "targetSdkVersion": 28, 
+                    "compileSdkVersion": 28
+                }, 
+                "activityCount": 0, 
+                "moduleType": "android", 
+                "useKotlin": false
+            }, 
+            {
+                "resourcesConfig": {
+                    "stringCount": 0.0, 
+                    "layoutCount": 0.0, 
+                    "imageCount": 0.0
+                }, 
+                "moduleName": "leafModuleMin", 
+                "java": {
+                    "classesPerPackage": 12, 
+                    "packages": 1, 
+                    "methodsPerClass": 2, 
+                    "fieldsPerClass": 1
+                }, 
+                "generateTests": false, 
+                "dependencies": [
+                    {
+                        "moduleName": "libraries_foundation_rib_rib_base"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_rib_rib_android"
+                    }, 
+                    {
+                        "moduleName": "leafModuleMax"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_experiment_experiment_api"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_experiment_experiment_annotations"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_experiment_experiment"
+                    }, 
+                    {
+                        "moduleName": "libraries_common_view_extensions"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "androidx.coordinatorlayout:coordinatorlayout:1.1.0"
+                    }
+                ], 
+                "androidBuildConfig": {
+                    "minSdkVersion": 21, 
+                    "targetSdkVersion": 28, 
+                    "compileSdkVersion": 28
+                }, 
+                "activityCount": 0, 
+                "moduleType": "android", 
+                "useKotlin": false
+            }, 
+            {
+                "resourcesConfig": {
+                    "stringCount": 0.0, 
+                    "layoutCount": 0.0, 
+                    "imageCount": 0.0
+                }, 
+                "useKotlin": true, 
+                "generateTests": false, 
+                "dependencies": [
+                    {
+                        "moduleName": "tooling_program_analysis_error_prone_annotations"
+                    }, 
+                    {
+                        "moduleName": "model_types_common_ui__font"
+                    }, 
+                    {
+                        "moduleName": "model_types_common_ui__color"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_uava_adapters_moshi"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_uava_adapters_gson"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_modelgen_jenga_jenga_runtime_moshi"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_modelgen_jenga_jenga_runtime_gson"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_modelgen_jenga_jenga_runtime"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_lumber_lumber_logger"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "javax.inject:javax.inject:1"
+                    }, 
+                    {
+                        "library": "javax.annotation:javax.annotation-api:1.3.2"
+                    }, 
+                    {
+                        "library": "com.squareup.wire:wire-compiler:3.0.0-rc01"
+                    }, 
+                    {
+                        "library": "androidx.annotation:annotation-experimental:1.0.0-rc01"
+                    }
+                ], 
+                "kotlin": {
+                    "classesPerPackage": 6, 
+                    "packages": 1, 
+                    "methodsPerClass": 8, 
+                    "fieldsPerClass": 2
+                }, 
+                "activityCount": 0, 
+                "moduleType": "android", 
+                "androidBuildConfig": {
+                    "minSdkVersion": 21, 
+                    "targetSdkVersion": 28, 
+                    "compileSdkVersion": 28
+                }, 
+                "moduleName": "model_types_common_ui_component__text"
+            }, 
+            {
+                "useKotlin": false, 
+                "java": {
+                    "classesPerPackage": 4, 
+                    "packages": 1, 
+                    "methodsPerClass": 10, 
+                    "fieldsPerClass": 1
+                }, 
+                "generateTests": false, 
+                "dependencies": [
+                    {
+                        "moduleName": "leafModuleMax"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "org.checkerframework:checker-compat-qual:2.5.5"
+                    }, 
+                    {
+                        "library": "androidx.annotation:annotation-experimental:1.0.0-rc01"
+                    }
+                ], 
+                "moduleName": "libraries_foundation_uava_types"
+            }, 
+            {
+                "resourcesConfig": {
+                    "stringCount": 0.0, 
+                    "layoutCount": 0.0, 
+                    "imageCount": 0.0
+                }, 
+                "moduleName": "libraries_foundation_core_core", 
+                "java": {
+                    "classesPerPackage": 21, 
+                    "packages": 1, 
+                    "methodsPerClass": 4, 
+                    "fieldsPerClass": 1
+                }, 
+                "generateTests": false, 
+                "dependencies": [
+                    {
+                        "moduleName": "tooling_program_analysis_error_prone_annotations"
+                    }, 
+                    {
+                        "moduleName": "leafModuleMax"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_lumber_lumber_logger"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_core_core_app_delegate"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_codeanalysis"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "org.checkerframework:checker-compat-qual:2.5.5"
+                    }, 
+                    {
+                        "library": "io.reactivex.rxjava2:rxandroid:2.1.1"
+                    }, 
+                    {
+                        "library": "androidx.appcompat:appcompat-resources:1.2.0"
+                    }, 
+                    {
+                        "library": "androidx.annotation:annotation-experimental:1.0.0-rc01"
+                    }, 
+                    {
+                        "library": "androidx.activity:activity:1.1.0"
+                    }
+                ], 
+                "androidBuildConfig": {
+                    "minSdkVersion": 21, 
+                    "targetSdkVersion": 28, 
+                    "compileSdkVersion": 28
+                }, 
+                "activityCount": 0, 
+                "moduleType": "android", 
+                "useKotlin": false
+            }, 
+            {
+                "useKotlin": false, 
+                "java": {
+                    "classesPerPackage": 2, 
+                    "packages": 1, 
+                    "methodsPerClass": 2, 
+                    "fieldsPerClass": 3
+                }, 
+                "generateTests": false, 
+                "dependencies": [
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "org.checkerframework:checker-compat-qual:2.5.5"
+                    }
+                ], 
+                "moduleName": "leafModuleMax"
+            }, 
+            {
+                "useKotlin": false, 
+                "java": {
+                    "classesPerPackage": 99, 
+                    "packages": 1, 
+                    "methodsPerClass": 5, 
+                    "fieldsPerClass": 3
+                }, 
+                "generateTests": false, 
+                "dependencies": [
+                    {
+                        "moduleName": "libraries_foundation_uava_clock"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_threading_threading_java"
+                    }, 
+                    {
+                        "moduleName": "leafModuleMax"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_modelgen_jenga_jenga_runtime"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_lumber_lumber_logger"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_codeanalysis"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "org.checkerframework:checker-compat-qual:2.5.5"
+                    }, 
+                    {
+                        "library": "javax.inject:javax.inject:1"
+                    }, 
+                    {
+                        "library": "io.reactivex.rxjava2:rxandroid:2.1.1"
+                    }, 
+                    {
+                        "library": "io.reactivex:rxandroid:1.2.1"
+                    }, 
+                    {
+                        "library": "com.squareup.wire:wire-compiler:3.0.0-rc01"
+                    }, 
+                    {
+                        "library": "com.squareup.retrofit2:adapter-rxjava:2.6.0"
+                    }, 
+                    {
+                        "library": "com.squareup.retrofit2:adapter-rxjava:2.6.0"
+                    }, 
+                    {
+                        "library": "com.squareup.retrofit2:adapter-rxjava:2.6.0"
+                    }, 
+                    {
+                        "library": "com.squareup.retrofit2:adapter-rxjava:2.6.0"
+                    }, 
+                    {
+                        "library": "com.squareup.okio:okio:2.7.0"
+                    }, 
+                    {
+                        "library": "androidx.annotation:annotation-experimental:1.0.0-rc01"
+                    }
+                ], 
+                "moduleName": "libraries_foundation_network_network"
+            }, 
+            {
+                "useKotlin": false, 
+                "java": {
+                    "classesPerPackage": 20, 
+                    "packages": 1, 
+                    "methodsPerClass": 3, 
+                    "fieldsPerClass": 1
+                }, 
+                "generateTests": false, 
+                "dependencies": [
+                    {
+                        "moduleName": "libraries_foundation_modelgen_jenga_jenga_runtime"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "org.checkerframework:checker-compat-qual:2.5.5"
+                    }, 
+                    {
+                        "library": "com.squareup.moshi:moshi-adapters:1.10.0"
+                    }, 
+                    {
+                        "library": "com.gabrielittner.threetenbp:lazythreetenbp:0.8.0"
+                    }, 
+                    {
+                        "library": "androidx.annotation:annotation-experimental:1.0.0-rc01"
+                    }
+                ], 
+                "moduleName": "libraries_foundation_modelgen_jenga_jenga_runtime_moshi"
+            }, 
+            {
+                "resourcesConfig": {
+                    "stringCount": 0.0, 
+                    "layoutCount": 0.0, 
+                    "imageCount": 0.0
+                }, 
+                "moduleName": "libraries_foundation_rib_rib_workflow", 
+                "java": {
+                    "classesPerPackage": 7, 
+                    "packages": 1, 
+                    "methodsPerClass": 3, 
+                    "fieldsPerClass": 1
+                }, 
+                "generateTests": false, 
+                "dependencies": [
+                    {
+                        "moduleName": "tooling_program_analysis_supereffective_qual"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_rib_rib_base"
+                    }, 
+                    {
+                        "moduleName": "leafModuleMax"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "org.checkerframework:checker-compat-qual:2.5.5"
+                    }, 
+                    {
+                        "library": "javax.inject:javax.inject:1"
+                    }, 
+                    {
+                        "library": "io.reactivex.rxjava2:rxandroid:2.1.1"
+                    }, 
+                    {
+                        "library": "io.reactivex.rxjava2:rxandroid:2.1.1"
+                    }, 
+                    {
+                        "library": "androidx.appcompat:appcompat-resources:1.2.0"
+                    }
+                ], 
+                "androidBuildConfig": {
+                    "minSdkVersion": 21, 
+                    "targetSdkVersion": 28, 
+                    "compileSdkVersion": 28
+                }, 
+                "activityCount": 0, 
+                "moduleType": "android", 
+                "useKotlin": false
+            }, 
+            {
+                "resourcesConfig": {
+                    "stringCount": 0.0, 
+                    "layoutCount": 0.0, 
+                    "imageCount": 17.0
+                }, 
+                "moduleName": "libraries_foundation_ui_ui_theme", 
+                "java": {
+                    "classesPerPackage": 1, 
+                    "packages": 1, 
+                    "methodsPerClass": 1, 
+                    "fieldsPerClass": 1
+                }, 
+                "generateTests": false, 
+                "dependencies": [
+                    {
+                        "moduleName": "libraries_foundation_ui_ui_statusbar"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_ui_ui_font"
+                    }, 
+                    {
+                        "moduleName": "leafModuleMax"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "androidx.appcompat:appcompat-resources:1.2.0"
+                    }
+                ], 
+                "androidBuildConfig": {
+                    "minSdkVersion": 21, 
+                    "targetSdkVersion": 28, 
+                    "compileSdkVersion": 28
+                }, 
+                "activityCount": 0, 
+                "moduleType": "android", 
+                "useKotlin": false
+            }, 
+            {
+                "resourcesConfig": {
+                    "stringCount": 0.0, 
+                    "layoutCount": 0.0, 
+                    "imageCount": 0.0
+                }, 
+                "moduleName": "libraries_foundation_ui_ui_annotations", 
+                "java": {
+                    "classesPerPackage": 3, 
+                    "packages": 1, 
+                    "methodsPerClass": 1, 
+                    "fieldsPerClass": 1
+                }, 
+                "generateTests": false, 
+                "dependencies": [
+                    {
+                        "moduleName": "leafModuleMax"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "androidx.annotation:annotation-experimental:1.0.0-rc01"
+                    }
+                ], 
+                "androidBuildConfig": {
+                    "minSdkVersion": 21, 
+                    "targetSdkVersion": 28, 
+                    "compileSdkVersion": 28
+                }, 
+                "activityCount": 0, 
+                "moduleType": "android", 
+                "useKotlin": false
+            }, 
+            {
+                "resourcesConfig": {
+                    "stringCount": 9.0, 
+                    "layoutCount": 3.0, 
+                    "imageCount": 117.0
+                }, 
+                "moduleName": "libraries_foundation_ui_ui_legacy_ui", 
+                "java": {
+                    "classesPerPackage": 42, 
+                    "packages": 1, 
+                    "methodsPerClass": 6, 
+                    "fieldsPerClass": 2
+                }, 
+                "generateTests": false, 
+                "dependencies": [
+                    {
+                        "moduleName": "libraries_foundation_ui_ui_theme"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_ui_ui_legacy_ui_validation"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_ui_ui_font"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_ui_ui_deprecated_floatinglabeltext"
+                    }, 
+                    {
+                        "moduleName": "leafModuleMax"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "io.github.inflationx:calligraphy3:3.1.1"
+                    }, 
+                    {
+                        "library": "androidx.legacy:legacy-support-core-ui:1.0.0"
+                    }, 
+                    {
+                        "library": "androidx.legacy:legacy-support-core-ui:1.0.0"
+                    }, 
+                    {
+                        "library": "androidx.fragment:fragment:1.2.0"
+                    }, 
+                    {
+                        "library": "androidx.core:core-ktx:1.3.0"
+                    }, 
+                    {
+                        "library": "androidx.appcompat:appcompat-resources:1.2.0"
+                    }, 
+                    {
+                        "library": "androidx.annotation:annotation-experimental:1.0.0-rc01"
+                    }
+                ], 
+                "androidBuildConfig": {
+                    "minSdkVersion": 21, 
+                    "targetSdkVersion": 28, 
+                    "compileSdkVersion": 28
+                }, 
+                "activityCount": 0, 
+                "moduleType": "android", 
+                "useKotlin": false
+            }, 
+            {
+                "resourcesConfig": {
+                    "stringCount": 7.0, 
+                    "layoutCount": 0.0, 
+                    "imageCount": 0.0
+                }, 
+                "moduleName": "libraries_foundation_localization_localization", 
+                "java": {
+                    "classesPerPackage": 42, 
+                    "packages": 1, 
+                    "methodsPerClass": 4, 
+                    "fieldsPerClass": 1
+                }, 
+                "generateTests": false, 
+                "dependencies": [
+                    {
+                        "moduleName": "model_rtapi_services_febreze__febreze"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_ui_uview"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_shape_shape"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_realtime_retrofit_adapters_adapter_networkexception"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_realtime_presidio_realtime"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_portal_portal"
+                    }, 
+                    {
+                        "moduleName": "leafModuleMax"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_modelgen_jenga_jenga_runtime_gson"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_modelgen_jenga_jenga_runtime"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_localization_models"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_experiment_experiment_models"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_experiment_experiment_api"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_experiment_experiment_annotations"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_experiment_experiment"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_dagger_android_extras"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_codeanalysis"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "org.checkerframework:checker-compat-qual:2.5.5"
+                    }, 
+                    {
+                        "library": "javax.inject:javax.inject:1"
+                    }, 
+                    {
+                        "library": "io.reactivex.rxjava2:rxandroid:2.1.1"
+                    }, 
+                    {
+                        "library": "io.github.inflationx:calligraphy3:3.1.1"
+                    }, 
+                    {
+                        "library": "com.squareup.retrofit2:adapter-rxjava:2.6.0"
+                    }, 
+                    {
+                        "library": "com.squareup.retrofit2:adapter-rxjava:2.6.0"
+                    }, 
+                    {
+                        "library": "com.squareup.retrofit2:adapter-rxjava:2.6.0"
+                    }, 
+                    {
+                        "library": "androidx.legacy:legacy-support-core-ui:1.0.0"
+                    }, 
+                    {
+                        "library": "androidx.legacy:legacy-support-core-ui:1.0.0"
+                    }, 
+                    {
+                        "library": "androidx.fragment:fragment:1.2.0"
+                    }, 
+                    {
+                        "library": "androidx.core:core-ktx:1.3.0"
+                    }, 
+                    {
+                        "library": "androidx.appcompat:appcompat-resources:1.2.0"
+                    }, 
+                    {
+                        "library": "androidx.annotation:annotation-experimental:1.0.0-rc01"
+                    }
+                ], 
+                "androidBuildConfig": {
+                    "minSdkVersion": 21, 
+                    "targetSdkVersion": 28, 
+                    "compileSdkVersion": 28
+                }, 
+                "activityCount": 0, 
+                "moduleType": "android", 
+                "useKotlin": false
+            }, 
+            {
+                "resourcesConfig": {
+                    "stringCount": 0.0, 
+                    "layoutCount": 0.0, 
+                    "imageCount": 0.0
+                }, 
+                "moduleName": "libraries_foundation_utils_device", 
+                "java": {
+                    "classesPerPackage": 11, 
+                    "packages": 1, 
+                    "methodsPerClass": 9, 
+                    "fieldsPerClass": 3
+                }, 
+                "generateTests": false, 
+                "dependencies": [
+                    {
+                        "moduleName": "libraries_foundation_utils_identifiers"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_uava_clock"
+                    }, 
+                    {
+                        "moduleName": "leafModuleMax"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_lumber_lumber_logger"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_experiment_experiment_api"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_experiment_experiment"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "androidx.annotation:annotation-experimental:1.0.0-rc01"
+                    }
+                ], 
+                "androidBuildConfig": {
+                    "minSdkVersion": 21, 
+                    "targetSdkVersion": 28, 
+                    "compileSdkVersion": 28
+                }, 
+                "activityCount": 0, 
+                "moduleType": "android", 
+                "useKotlin": false
+            }, 
+            {
+                "resourcesConfig": {
+                    "stringCount": 0.0, 
+                    "layoutCount": 0.0, 
+                    "imageCount": 0.0
+                }, 
+                "moduleName": "libraries_foundation_ui_ui_deprecated_floatinglabeltext", 
+                "java": {
+                    "classesPerPackage": 18, 
+                    "packages": 1, 
+                    "methodsPerClass": 10, 
+                    "fieldsPerClass": 2
+                }, 
+                "generateTests": false, 
+                "dependencies": [
+                    {
+                        "moduleName": "libraries_foundation_ui_uview"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_ui_ui_legacy_ui_validation"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_ui_ui_font"
+                    }, 
+                    {
+                        "moduleName": "leafModuleMax"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_codeanalysis"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "org.checkerframework:checker-compat-qual:2.5.5"
+                    }, 
+                    {
+                        "library": "io.reactivex.rxjava2:rxandroid:2.1.1"
+                    }, 
+                    {
+                        "library": "io.github.inflationx:calligraphy3:3.1.1"
+                    }, 
+                    {
+                        "library": "androidx.legacy:legacy-support-core-ui:1.0.0"
+                    }, 
+                    {
+                        "library": "androidx.legacy:legacy-support-core-ui:1.0.0"
+                    }, 
+                    {
+                        "library": "androidx.fragment:fragment:1.2.0"
+                    }, 
+                    {
+                        "library": "androidx.core:core-ktx:1.3.0"
+                    }, 
+                    {
+                        "library": "androidx.annotation:annotation-experimental:1.0.0-rc01"
+                    }
+                ], 
+                "androidBuildConfig": {
+                    "minSdkVersion": 21, 
+                    "targetSdkVersion": 28, 
+                    "compileSdkVersion": 28
+                }, 
+                "activityCount": 0, 
+                "moduleType": "android", 
+                "useKotlin": false
+            }, 
+            {
+                "resourcesConfig": {
+                    "stringCount": 0.0, 
+                    "layoutCount": 0.0, 
+                    "imageCount": 0.0
+                }, 
+                "moduleName": "thrift_models_analytics_projects_permissions", 
+                "java": {
+                    "classesPerPackage": 13, 
+                    "packages": 1, 
+                    "methodsPerClass": 10, 
+                    "fieldsPerClass": 3
+                }, 
+                "generateTests": false, 
+                "dependencies": [
+                    {
+                        "moduleName": "tooling_program_analysis_error_prone_annotations"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_modelgen_jenga_jenga_runtime"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_analytics_extension"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "javax.inject:javax.inject:1"
+                    }, 
+                    {
+                        "library": "javax.annotation:javax.annotation-api:1.3.2"
+                    }, 
+                    {
+                        "library": "androidx.annotation:annotation-experimental:1.0.0-rc01"
+                    }
+                ], 
+                "androidBuildConfig": {
+                    "minSdkVersion": 21, 
+                    "targetSdkVersion": 28, 
+                    "compileSdkVersion": 28
+                }, 
+                "activityCount": 0, 
+                "moduleType": "android", 
+                "useKotlin": false
+            }, 
+            {
+                "resourcesConfig": {
+                    "stringCount": 0.0, 
+                    "layoutCount": 1.0, 
+                    "imageCount": 1.0
+                }, 
+                "moduleName": "libraries_common_rx_map", 
+                "java": {
+                    "classesPerPackage": 105, 
+                    "packages": 1, 
+                    "methodsPerClass": 7, 
+                    "fieldsPerClass": 2
+                }, 
+                "generateTests": false, 
+                "dependencies": [
+                    {
+                        "moduleName": "thrift_models_analyticsV2_projects_app_helix_rider_core"
+                    }, 
+                    {
+                        "moduleName": "thrift_models_analytics_projects_helix"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_utils_device"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_ui_uview"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_ui_ui_legacy_ui"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_ui_ui_core"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_shape_shape"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_rx_java_v2"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_rib_rib_base"
+                    }, 
+                    {
+                        "moduleName": "leafModuleMax"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_modelgen_jenga_jenga_runtime"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_lumber_lumber_logger"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_experiment_experiment_api"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_experiment_experiment_annotations"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_experiment_experiment"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_codeanalysis"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_analytics_extension"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_analytics_analytics"
+                    }, 
+                    {
+                        "moduleName": "libraries_common_map_marker_clustering"
+                    }, 
+                    {
+                        "library": "org.reactivestreams:reactive-streams:1.0.2"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "org.checkerframework:checker-compat-qual:2.5.5"
+                    }, 
+                    {
+                        "library": "javax.inject:javax.inject:1"
+                    }, 
+                    {
+                        "library": "io.reactivex.rxjava2:rxandroid:2.1.1"
+                    }, 
+                    {
+                        "library": "com.trello:rxlifecycle:1.0"
+                    }, 
+                    {
+                        "library": "com.jakewharton.timber:timber:4.7.0"
+                    }, 
+                    {
+                        "library": "com.jakewharton.rxrelay2:rxrelay:2.1.0"
+                    }, 
+                    {
+                        "library": "androidx.legacy:legacy-support-core-ui:1.0.0"
+                    }, 
+                    {
+                        "library": "androidx.legacy:legacy-support-core-ui:1.0.0"
+                    }, 
+                    {
+                        "library": "androidx.fragment:fragment:1.2.0"
+                    }, 
+                    {
+                        "library": "androidx.core:core-ktx:1.3.0"
+                    }, 
+                    {
+                        "library": "androidx.coordinatorlayout:coordinatorlayout:1.1.0"
+                    }, 
+                    {
+                        "library": "androidx.appcompat:appcompat-resources:1.2.0"
+                    }, 
+                    {
+                        "library": "androidx.annotation:annotation-experimental:1.0.0-rc01"
+                    }
+                ], 
+                "androidBuildConfig": {
+                    "minSdkVersion": 21, 
+                    "targetSdkVersion": 28, 
+                    "compileSdkVersion": 28
+                }, 
+                "activityCount": 0, 
+                "moduleType": "android", 
+                "useKotlin": false
+            }, 
+            {
+                "resourcesConfig": {
+                    "stringCount": 0.0, 
+                    "layoutCount": 0.0, 
+                    "imageCount": 0.0
+                }, 
+                "useKotlin": true, 
+                "generateTests": false, 
+                "dependencies": [
+                    {
+                        "moduleName": "tooling_program_analysis_error_prone_annotations"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_uava_adapters_moshi"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_uava_adapters_gson"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_modelgen_jenga_jenga_runtime_moshi"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_modelgen_jenga_jenga_runtime_gson"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_modelgen_jenga_jenga_runtime"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_lumber_lumber_logger"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "javax.inject:javax.inject:1"
+                    }, 
+                    {
+                        "library": "javax.annotation:javax.annotation-api:1.3.2"
+                    }, 
+                    {
+                        "library": "com.squareup.wire:wire-compiler:3.0.0-rc01"
+                    }, 
+                    {
+                        "library": "androidx.annotation:annotation-experimental:1.0.0-rc01"
+                    }
+                ], 
+                "kotlin": {
+                    "classesPerPackage": 3, 
+                    "packages": 1, 
+                    "methodsPerClass": 4, 
+                    "fieldsPerClass": 8
+                }, 
+                "activityCount": 0, 
+                "moduleType": "android", 
+                "androidBuildConfig": {
+                    "minSdkVersion": 21, 
+                    "targetSdkVersion": 28, 
+                    "compileSdkVersion": 28
+                }, 
+                "moduleName": "model_types_common_ui__dimens"
+            }, 
+            {
+                "useKotlin": false, 
+                "java": {
+                    "classesPerPackage": 4, 
+                    "packages": 1, 
+                    "methodsPerClass": 2, 
+                    "fieldsPerClass": 1
+                }, 
+                "generateTests": false, 
+                "dependencies": [
+                    {
+                        "moduleName": "leafModuleMax"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "org.checkerframework:checker-compat-qual:2.5.5"
+                    }
+                ], 
+                "moduleName": "libraries_foundation_uava_clock"
+            }, 
+            {
+                "resourcesConfig": {
+                    "stringCount": 0.0, 
+                    "layoutCount": 0.0, 
+                    "imageCount": 0.0
+                }, 
+                "useKotlin": true, 
+                "generateTests": false, 
+                "dependencies": [
+                    {
+                        "moduleName": "tooling_program_analysis_error_prone_annotations"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_uava_adapters_moshi"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_uava_adapters_gson"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_modelgen_jenga_jenga_runtime_moshi"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_modelgen_jenga_jenga_runtime_gson"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_modelgen_jenga_jenga_runtime"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_lumber_lumber_logger"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "javax.inject:javax.inject:1"
+                    }, 
+                    {
+                        "library": "javax.annotation:javax.annotation-api:1.3.2"
+                    }, 
+                    {
+                        "library": "com.squareup.wire:wire-compiler:3.0.0-rc01"
+                    }, 
+                    {
+                        "library": "androidx.annotation:annotation-experimental:1.0.0-rc01"
+                    }
+                ], 
+                "kotlin": {
+                    "classesPerPackage": 10, 
+                    "packages": 1, 
+                    "methodsPerClass": 4, 
+                    "fieldsPerClass": 20
+                }, 
+                "activityCount": 0, 
+                "moduleType": "android", 
+                "androidBuildConfig": {
+                    "minSdkVersion": 21, 
+                    "targetSdkVersion": 28, 
+                    "compileSdkVersion": 28
+                }, 
+                "moduleName": "model_edge_models_types_common_ui__color"
+            }, 
+            {
+                "resourcesConfig": {
+                    "stringCount": 0.0, 
+                    "layoutCount": 0.0, 
+                    "imageCount": 0.0
+                }, 
+                "moduleName": "libraries_foundation_ui_ui_statusbar", 
+                "java": {
+                    "classesPerPackage": 13, 
+                    "packages": 1, 
+                    "methodsPerClass": 4, 
+                    "fieldsPerClass": 2
+                }, 
+                "generateTests": false, 
+                "dependencies": [
+                    {
+                        "moduleName": "libraries_foundation_ui_ui_animation"
+                    }, 
+                    {
+                        "moduleName": "leafModuleMax"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "org.checkerframework:checker-compat-qual:2.5.5"
+                    }, 
+                    {
+                        "library": "androidx.legacy:legacy-support-core-ui:1.0.0"
+                    }, 
+                    {
+                        "library": "androidx.legacy:legacy-support-core-ui:1.0.0"
+                    }, 
+                    {
+                        "library": "androidx.fragment:fragment:1.2.0"
+                    }, 
+                    {
+                        "library": "androidx.core:core-ktx:1.3.0"
+                    }, 
+                    {
+                        "library": "androidx.annotation:annotation-experimental:1.0.0-rc01"
+                    }
+                ], 
+                "androidBuildConfig": {
+                    "minSdkVersion": 21, 
+                    "targetSdkVersion": 28, 
+                    "compileSdkVersion": 28
+                }, 
+                "activityCount": 0, 
+                "moduleType": "android", 
+                "useKotlin": false
+            }, 
+            {
+                "resourcesConfig": {
+                    "stringCount": 0.0, 
+                    "layoutCount": 0.0, 
+                    "imageCount": 0.0
+                }, 
+                "moduleName": "libraries_foundation_experiment_experiment_models", 
+                "java": {
+                    "classesPerPackage": 33, 
+                    "packages": 1, 
+                    "methodsPerClass": 5, 
+                    "fieldsPerClass": 1
+                }, 
+                "generateTests": false, 
+                "dependencies": [
+                    {
+                        "moduleName": "libraries_foundation_shape_shape"
+                    }, 
+                    {
+                        "moduleName": "leafModuleMax"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_experiment_experiment_api"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "androidx.annotation:annotation-experimental:1.0.0-rc01"
+                    }
+                ], 
+                "androidBuildConfig": {
+                    "minSdkVersion": 21, 
+                    "targetSdkVersion": 28, 
+                    "compileSdkVersion": 28
+                }, 
+                "activityCount": 0, 
+                "moduleType": "android", 
+                "useKotlin": false
+            }, 
+            {
+                "useKotlin": false, 
+                "java": {
+                    "classesPerPackage": 6, 
+                    "packages": 1, 
+                    "methodsPerClass": 23, 
+                    "fieldsPerClass": 2
+                }, 
+                "generateTests": false, 
+                "moduleName": "libraries_foundation_localization_models"
+            }, 
+            {
+                "resourcesConfig": {
+                    "stringCount": 0.0, 
+                    "layoutCount": 0.0, 
+                    "imageCount": 0.0
+                }, 
+                "moduleName": "libraries_foundation_ui_ui_realtime_platform", 
+                "java": {
+                    "classesPerPackage": 33, 
+                    "packages": 1, 
+                    "methodsPerClass": 4, 
+                    "fieldsPerClass": 25
+                }, 
+                "generateTests": false, 
+                "dependencies": [
+                    {
+                        "moduleName": "model_types_common_ui_component__text"
+                    }, 
+                    {
+                        "moduleName": "model_types_common_ui_component__illustration"
+                    }, 
+                    {
+                        "moduleName": "model_types_common_ui__icon"
+                    }, 
+                    {
+                        "moduleName": "model_types_common_ui__font"
+                    }, 
+                    {
+                        "moduleName": "model_types_common_ui__dimens"
+                    }, 
+                    {
+                        "moduleName": "model_types_common_ui__color"
+                    }, 
+                    {
+                        "moduleName": "model_edge_models_types_common_ui__font"
+                    }, 
+                    {
+                        "moduleName": "model_edge_models_types_common_ui__color"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_ui_uview"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_ui_ui_utils"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_ui_ui_theme"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_ui_ui_font"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_ui_icons"
+                    }, 
+                    {
+                        "moduleName": "leafModuleMax"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_lumber_lumber_logger"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "com.squareup.picasso:picasso:2.71828"
+                    }
+                ], 
+                "androidBuildConfig": {
+                    "minSdkVersion": 21, 
+                    "targetSdkVersion": 28, 
+                    "compileSdkVersion": 28
+                }, 
+                "activityCount": 0, 
+                "moduleType": "android", 
+                "useKotlin": false
+            }, 
+            {
+                "resourcesConfig": {
+                    "stringCount": 0.0, 
+                    "layoutCount": 0.0, 
+                    "imageCount": 0.0
+                }, 
+                "moduleName": "libraries_common_map_marker_clustering", 
+                "java": {
+                    "classesPerPackage": 24, 
+                    "packages": 1, 
+                    "methodsPerClass": 5, 
+                    "fieldsPerClass": 1
+                }, 
+                "generateTests": false, 
+                "dependencies": [
+                    {
+                        "moduleName": "leafModuleMax"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_codeanalysis"
+                    }, 
+                    {
+                        "moduleName": "libraries_common_map_utils"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "org.checkerframework:checker-compat-qual:2.5.5"
+                    }, 
+                    {
+                        "library": "javax.inject:javax.inject:1"
+                    }, 
+                    {
+                        "library": "io.reactivex.rxjava2:rxandroid:2.1.1"
+                    }, 
+                    {
+                        "library": "io.reactivex.rxjava2:rxandroid:2.1.1"
+                    }, 
+                    {
+                        "library": "io.reactivex:rxandroid:1.2.1"
+                    }, 
+                    {
+                        "library": "com.jakewharton.rxrelay2:rxrelay:2.1.0"
+                    }, 
+                    {
+                        "library": "androidx.legacy:legacy-support-core-ui:1.0.0"
+                    }, 
+                    {
+                        "library": "androidx.legacy:legacy-support-core-ui:1.0.0"
+                    }, 
+                    {
+                        "library": "androidx.fragment:fragment:1.2.0"
+                    }, 
+                    {
+                        "library": "androidx.core:core-ktx:1.3.0"
+                    }
+                ], 
+                "androidBuildConfig": {
+                    "minSdkVersion": 21, 
+                    "targetSdkVersion": 28, 
+                    "compileSdkVersion": 28
+                }, 
+                "activityCount": 0, 
+                "moduleType": "android", 
+                "useKotlin": false
+            }, 
+            {
+                "useKotlin": false, 
+                "java": {
+                    "classesPerPackage": 3, 
+                    "packages": 1, 
+                    "methodsPerClass": 1, 
+                    "fieldsPerClass": 1
+                }, 
+                "generateTests": false, 
+                "dependencies": [
+                    {
+                        "moduleName": "leafModuleMax"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "org.checkerframework:checker-compat-qual:2.5.5"
+                    }
+                ], 
+                "moduleName": "libraries_foundation_experiment_experiment_annotations"
+            }, 
+            {
+                "useKotlin": false, 
+                "java": {
+                    "classesPerPackage": 5, 
+                    "packages": 1, 
+                    "methodsPerClass": 5, 
+                    "fieldsPerClass": 1
+                }, 
+                "generateTests": false, 
+                "dependencies": [
+                    {
+                        "moduleName": "leafModuleMax"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "org.checkerframework:checker-compat-qual:2.5.5"
+                    }, 
+                    {
+                        "library": "io.reactivex.rxjava2:rxandroid:2.1.1"
+                    }, 
+                    {
+                        "library": "io.reactivex:rxandroid:1.2.1"
+                    }, 
+                    {
+                        "library": "androidx.annotation:annotation-experimental:1.0.0-rc01"
+                    }
+                ], 
+                "moduleName": "libraries_foundation_threading_threading_java"
+            }
+        ]
+    }, 
+    "inputVersion": 0.1
+}

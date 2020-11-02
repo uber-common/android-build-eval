@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            <TextView
+        android:id="@+id/rootmoduleactivity_main1rootModulestring10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rootModulestring1"
+        
+/><TextView
+        android:id="@+id/rootmoduleactivity_main1rootModulestring21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rootModulestring2"
+        
+/><TextView
+        android:id="@+id/rootmoduleactivity_main1libraries_foundation_rib_rib_androidstring02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/libraries_foundation_rib_rib_androidstring0"
+        
+/><TextView
+        android:id="@+id/rootmoduleactivity_main1libraries_foundation_ui_ui_corestring53"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/libraries_foundation_ui_ui_corestring5"
+        
+/><TextView
+        android:id="@+id/rootmoduleactivity_main1libraries_foundation_ui_uviewstring64"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/libraries_foundation_ui_uviewstring6"
+        
+/>
+            <ImageView
+        android:id="@+id/rootmoduleactivity_main1rootmoduleimage10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/rootmoduleimage1"
+        
+/>
+            <ImageView
+        android:id="@+id/rootmoduleactivity_main1rootmoduleimage21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/rootmoduleimage2"
+        
+/>
+            <ImageView
+        android:id="@+id/rootmoduleactivity_main1rootmoduleimage32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/rootmoduleimage3"
+        
+/>
+            <ImageView
+        android:id="@+id/rootmoduleactivity_main1libraries_common_rx_mapimage03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/libraries_common_rx_mapimage0"
+        
+/>
+            <ImageView
+        android:id="@+id/rootmoduleactivity_main1libraries_foundation_ui_ui_coreimage784"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/libraries_foundation_ui_ui_coreimage78"
+        
+/>
+            <ImageView
+        android:id="@+id/rootmoduleactivity_main1libraries_foundation_ui_uviewimage25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/libraries_foundation_ui_uviewimage2"
+        
+/>
+            
+            
+        </LinearLayout>
+    </ScrollView>

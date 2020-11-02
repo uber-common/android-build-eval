@@ -1,0 +1,10 @@
+
+java_library(
+    name = "libraries_foundation_uava_adapters_moshi",
+    srcs = glob(["src/main/java/**/*.java"]),
+    visibility = ["//visibility:public"],
+    deps = [
+        "//libraries_foundation_codeanalysis",
+        "//leafModuleMax"
+    ],
+)

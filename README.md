@@ -16,6 +16,10 @@ Also, optimization of individual build system is currently not done : we're usin
 - `apps_eats_app_root_apk` : Uber Eats-like anonymized application
 - `apps_presidio_helix_app` : Uber Rider-like anonymized application
 
+Extras:
+- `libraries_feature_top_row_top_bar` : a medium size project, mimicking a Rib-based module used by mobile application.
+- `libraries_foundation_rib_rib_base` : a small project, mimicking Rib-library base module.
+
 #### Full build
 
 To build project from scratch, open a terminal and change directory to top folder project, and run corresponding command line for the build system you want to use :
@@ -40,4 +44,8 @@ Warning : in order to clean up build cache between invokation if Bazel and Buck,
 gradle|353880.3333|148685.6667|135891|72432|71129.33333|70183
 Buck|303295.6667|298654.3333|94661.66667|51526|48407.33333|46902.33333
 Bazel|1779829.333|1712104|883976.3333|4032|8514.333333|1742.666667
+
+#### Misc
+
+In order to clean builds between runs for Bazel and Buck, we're using a fork for android-profiler with this added capability : https://github.com/sunyal/gradle-profiler  
 

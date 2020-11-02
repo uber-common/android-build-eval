@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            <TextView
+        android:id="@+id/libraries_common_rx_mapactivity_main0libraries_foundation_ui_ui_legacy_uistring80"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/libraries_foundation_ui_ui_legacy_uistring8"
+        
+/><TextView
+        android:id="@+id/libraries_common_rx_mapactivity_main0libraries_foundation_ui_uviewstring61"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/libraries_foundation_ui_uviewstring6"
+        
+/><TextView
+        android:id="@+id/libraries_common_rx_mapactivity_main0libraries_foundation_ui_ui_corestring52"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/libraries_foundation_ui_ui_corestring5"
+        
+/>
+            <ImageView
+        android:id="@+id/libraries_common_rx_mapactivity_main0libraries_common_rx_mapimage00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/libraries_common_rx_mapimage0"
+        
+/>
+            <ImageView
+        android:id="@+id/libraries_common_rx_mapactivity_main0libraries_foundation_ui_ui_legacy_uiimage1161"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/libraries_foundation_ui_ui_legacy_uiimage116"
+        
+/>
+            <ImageView
+        android:id="@+id/libraries_common_rx_mapactivity_main0libraries_foundation_ui_uviewimage22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/libraries_foundation_ui_uviewimage2"
+        
+/>
+            <ImageView
+        android:id="@+id/libraries_common_rx_mapactivity_main0libraries_foundation_ui_ui_coreimage783"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/libraries_foundation_ui_ui_coreimage78"
+        
+/>
+            
+            <include
+        layout="@layout/libraries_foundation_ui_ui_legacy_uiactivity_main2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+/>
+            <include
+        layout="@layout/libraries_foundation_ui_uviewactivity_main0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+/>
+            <include
+        layout="@layout/libraries_foundation_ui_ui_coreactivity_main30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+/>
+            
+        </LinearLayout>
+    </ScrollView>

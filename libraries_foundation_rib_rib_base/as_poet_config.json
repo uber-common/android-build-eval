@@ -1,0 +1,252 @@
+{
+    "projectConfig": {
+        "buildSystemConfig": {
+            "kotlinVersion": "1.4.10", 
+            "generateBuckFiles": true, 
+            "agpVersion": "4.2.0-alpha10", 
+            "buildSystemVersion": "6.6.1", 
+            "generateBazelFiles": true
+        }, 
+        "projectName": "libraries_foundation_rib_rib_base", 
+        "root": "/Users/oliviern/Uber/android/../generatedProjects", 
+        "moduleConfigs": [
+            {
+                "useKotlin": false, 
+                "java": {
+                    "classesPerPackage": 6, 
+                    "packages": 1, 
+                    "methodsPerClass": 1, 
+                    "fieldsPerClass": 1
+                }, 
+                "generateTests": false, 
+                "dependencies": [
+                    {
+                        "moduleName": "leafModuleMax"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "org.checkerframework:checker-compat-qual:2.5.5"
+                    }, 
+                    {
+                        "library": "javax.inject:javax.inject:1"
+                    }
+                ], 
+                "moduleName": "libraries_foundation_dagger_android_extras"
+            }, 
+            {
+                "useKotlin": false, 
+                "java": {
+                    "classesPerPackage": 19, 
+                    "packages": 1, 
+                    "methodsPerClass": 6, 
+                    "fieldsPerClass": 2
+                }, 
+                "generateTests": false, 
+                "dependencies": [
+                    {
+                        "moduleName": "leafModuleMin"
+                    }, 
+                    {
+                        "moduleName": "leafModuleMax"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "org.checkerframework:checker-compat-qual:2.5.5"
+                    }, 
+                    {
+                        "library": "io.reactivex.rxjava2:rxandroid:2.1.1"
+                    }, 
+                    {
+                        "library": "androidx.annotation:annotation-experimental:1.0.0-rc01"
+                    }
+                ], 
+                "moduleName": "libraries_foundation_lumber_lumber_logger"
+            }, 
+            {
+                "useKotlin": false, 
+                "java": {
+                    "classesPerPackage": 48, 
+                    "packages": 1, 
+                    "methodsPerClass": 5, 
+                    "fieldsPerClass": 1
+                }, 
+                "generateTests": false, 
+                "dependencies": [
+                    {
+                        "moduleName": "leafModuleMax"
+                    }, 
+                    {
+                        "library": "org.reactivestreams:reactive-streams:1.0.2"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "org.checkerframework:checker-compat-qual:2.5.5"
+                    }, 
+                    {
+                        "library": "io.reactivex.rxjava2:rxandroid:2.1.1"
+                    }, 
+                    {
+                        "library": "io.reactivex.rxjava2:rxandroid:2.1.1"
+                    }, 
+                    {
+                        "library": "androidx.annotation:annotation-experimental:1.0.0-rc01"
+                    }
+                ], 
+                "moduleName": "libraries_foundation_rx_java_v2"
+            }, 
+            {
+                "useKotlin": false, 
+                "java": {
+                    "classesPerPackage": 4, 
+                    "packages": 1, 
+                    "methodsPerClass": 1, 
+                    "fieldsPerClass": 1
+                }, 
+                "generateTests": false, 
+                "dependencies": [
+                    {
+                        "moduleName": "tooling_program_analysis_supereffective_qual"
+                    }, 
+                    {
+                        "moduleName": "leafModuleMax"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_lumber_lumber_logger"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "org.checkerframework:checker-compat-qual:2.5.5"
+                    }, 
+                    {
+                        "library": "androidx.annotation:annotation-experimental:1.0.0-rc01"
+                    }
+                ], 
+                "moduleName": "libraries_foundation_codeanalysis"
+            }, 
+            {
+                "resourcesConfig": {
+                    "stringCount": 1, 
+                    "layoutCount": 0, 
+                    "imageCount": 0
+                }, 
+                "moduleName": "rootModule", 
+                "java": {
+                    "classesPerPackage": 51, 
+                    "packages": 1, 
+                    "methodsPerClass": 4, 
+                    "fieldsPerClass": 1
+                }, 
+                "generateTests": false, 
+                "dependencies": [
+                    {
+                        "moduleName": "libraries_foundation_rx_java_v2"
+                    }, 
+                    {
+                        "moduleName": "leafModuleMax"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_dagger_android_extras"
+                    }, 
+                    {
+                        "moduleName": "libraries_foundation_codeanalysis"
+                    }, 
+                    {
+                        "library": "org.reactivestreams:reactive-streams:1.0.2"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "org.checkerframework:checker-compat-qual:2.5.5"
+                    }, 
+                    {
+                        "library": "javax.inject:javax.inject:1"
+                    }, 
+                    {
+                        "library": "io.reactivex.rxjava2:rxandroid:2.1.1"
+                    }, 
+                    {
+                        "library": "com.jakewharton.rxrelay2:rxrelay:2.1.0"
+                    }, 
+                    {
+                        "library": "androidx.annotation:annotation-experimental:1.0.0-rc01"
+                    }
+                ], 
+                "androidBuildConfig": {
+                    "minSdkVersion": 21, 
+                    "targetSdkVersion": 28, 
+                    "compileSdkVersion": 28
+                }, 
+                "activityCount": 1, 
+                "moduleType": "android", 
+                "useKotlin": false
+            }, 
+            {
+                "useKotlin": false, 
+                "java": {
+                    "classesPerPackage": 4, 
+                    "packages": 1, 
+                    "methodsPerClass": 2, 
+                    "fieldsPerClass": 1
+                }, 
+                "generateTests": false, 
+                "dependencies": [
+                    {
+                        "moduleName": "leafModuleMax"
+                    }, 
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "org.checkerframework:checker-compat-qual:2.5.5"
+                    }
+                ], 
+                "moduleName": "leafModuleMin"
+            }, 
+            {
+                "useKotlin": false, 
+                "java": {
+                    "classesPerPackage": 2, 
+                    "packages": 1, 
+                    "methodsPerClass": 2, 
+                    "fieldsPerClass": 3
+                }, 
+                "generateTests": false, 
+                "dependencies": [
+                    {
+                        "library": "org.jetbrains.kotlin:kotlin-allopen:1.4.10"
+                    }, 
+                    {
+                        "library": "org.checkerframework:checker-compat-qual:2.5.5"
+                    }
+                ], 
+                "moduleName": "leafModuleMax"
+            }, 
+            {
+                "useKotlin": false, 
+                "java": {
+                    "classesPerPackage": 6, 
+                    "packages": 1, 
+                    "methodsPerClass": 1, 
+                    "fieldsPerClass": 1
+                }, 
+                "generateTests": false, 
+                "dependencies": [
+                    {
+                        "library": "org.checkerframework:checker-compat-qual:2.5.5"
+                    }
+                ], 
+                "moduleName": "tooling_program_analysis_supereffective_qual"
+            }
+        ]
+    }, 
+    "inputVersion": 0.1
+}

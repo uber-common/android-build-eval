@@ -1,0 +1,4 @@
+plugins { id "com.gradle.enterprise" version "3.4.1" }
+rootProject.name = 'libraries_foundation_rib_rib_base'
+
+include 'rootModule','libraries_foundation_dagger_android_extras','libraries_foundation_lumber_lumber_logger','libraries_foundation_rx_java_v2','libraries_foundation_codeanalysis','leafModuleMin','leafModuleMax','tooling_program_analysis_supereffective_qual'

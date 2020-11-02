@@ -1,0 +1,10 @@
+digraph libraries_foundation_rib_rib_base {
+  rootModule -> leafModuleMax, libraries_foundation_codeanalysis, libraries_foundation_dagger_android_extras, libraries_foundation_rx_java_v2;
+  libraries_foundation_dagger_android_extras -> leafModuleMax;
+  libraries_foundation_lumber_lumber_logger -> leafModuleMax, leafModuleMin;
+  libraries_foundation_rx_java_v2 -> leafModuleMax;
+  libraries_foundation_codeanalysis -> leafModuleMax, libraries_foundation_lumber_lumber_logger, tooling_program_analysis_supereffective_qual;
+  leafModuleMin -> leafModuleMax;
+  leafModuleMax;
+  tooling_program_analysis_supereffective_qual;
+}

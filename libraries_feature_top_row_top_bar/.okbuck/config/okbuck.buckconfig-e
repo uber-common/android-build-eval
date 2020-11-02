@@ -1,0 +1,18 @@
+[android]
+    build_tools_version = 28.0.2
+    target = android-28
+
+[kotlin]
+    kotlin_home = //.okbuck/workspace/kotlin_home:kotlin_home
+
+[tools]
+    proguard = //.okbuck/ext/net/sf/proguard:proguard-base-6.0.3.jar
+
+[maven_repositories]
+    google = https://dl.google.com/dl/android/maven2/
+    bintrayjcenter = https://jcenter.bintray.com/
+    maven = https://jitpack.io
+
+[download]
+    in_build = true
+    max_number_of_retries = 3
