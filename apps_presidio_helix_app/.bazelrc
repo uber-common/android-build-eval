@@ -1,2 +1,0 @@
-startup --host_jvm_args=-Xmx12g
-build --spawn_strategy=local
