@@ -1,0 +1,10 @@
+
+java_library(
+    name = "module184",
+    srcs = glob(["src/main/java/**/*.java"]),
+    visibility = ["//visibility:public"],
+    deps = [
+        "//module443",
+        "//leafModuleMax"
+    ],
+)

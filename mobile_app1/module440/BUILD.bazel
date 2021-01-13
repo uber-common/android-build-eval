@@ -1,0 +1,34 @@
+load("@gmaven_rules//:defs.bzl", "gmaven_artifact")
+
+android_library(
+    name = "module440",
+    srcs = glob(["src/main/java/**/*.java"]),
+    resource_files = glob(["src/main/res/**/*"]),
+    manifest = "src/main/AndroidManifest.xml",
+    custom_package = "com.module440",
+    visibility = ["//visibility:public"],
+    deps = [
+        "//module888",
+        "//leafModuleMax",
+        "@maven//:org_checkerframework_checker_compat_qual",
+        "//module33",
+        "//module1235",
+        "@maven//:javax_inject_javax_inject",
+        "//module319",
+        "//module1139",
+        "//module252",
+        "@maven//:org_jetbrains_kotlin_kotlin_allopen",
+        "//module23",
+        "@maven//:io_reactivex_rxjava2_rxandroid",
+        "@maven//:androidx_annotation_annotation_experimental",
+        "@maven//:com_jakewharton_rxrelay2_rxrelay",
+        "//module559",
+        "//module1150",
+        "//module414",
+        gmaven_artifact("com.android.support:appcompat-v7:aar:28.0.0"),
+        gmaven_artifact("com.android.support.constraint:constraint-layout:aar:1.1.3"),
+        gmaven_artifact("com.android.support:multidex:aar:1.0.3"),
+        gmaven_artifact("com.android.support.test:runner:aar:1.0.2"),
+        gmaven_artifact("com.android.support.test.espresso:espresso-core:aar:3.0.2")
+    ],
+)

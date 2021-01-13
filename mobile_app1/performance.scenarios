@@ -1,0 +1,166 @@
+# From https://github.com/sunyal/gradle-profiler
+# INSTRUCTION:
+#
+# For leaf scenarios, change the androidAppModule number and package name to a
+# leaf node as shown in the Gradle/Bazel graphs.
+
+default-scenarios = ["fullLocalCache", "abiChangeWithMaxLeafLocalCache", "abiChangeWithAvgLeafLocalCache", "abiChangeWithMinLeafLocalCache", "nonAbiChangeWithMaxLeafLocalCache", "androidResourceChangeWithRootLocalCache", "noOpLocalCache"]
+
+################################################################################
+# Local Cache - Cold, but external dependencies are cached locally
+################################################################################
+fullLocalCache {
+  tasks = [":rootModule:assembleDebug"]
+  clear-build-cache-before = BUILD
+  cleanup-tasks = ["clean", "cleanBuildCache"]
+  gradle-args = ["--no-build-cache"]
+  bazel {
+    targets = ["//rootModule"]
+    clean-build-before = [
+      {
+        schedule = SCENARIO
+        commands = ["bazel", "clean", "--expunge"]
+      },
+      {
+        # 'Bazel clean' command removes also external libraries and toolchain. Do cleanup manually instead, and leave 'external' folder intact.
+        schedule = BUILD
+        commands = ["bazel", "run", "//:clean"]
+      }
+    ]
+  }
+  buck {
+    targets = ["//rootModule:src_debug"]
+    clean-build-before = [
+      {
+        schedule = BUILD
+        commands = ["./buckw", "clean"]
+      },
+      {
+        schedule = BUILD
+        commands = ["./buckw", "build", ".okbuck/ext/..."]
+      },
+      {
+        schedule = BUILD
+        commands = ["./buckw", "fetch", "..."]
+      }
+    ]
+  }
+}
+
+################################################################################
+# No Op, Local Cache
+################################################################################
+noOpLocalCache {
+  tasks = [":rootModule:assembleDebug"]
+  bazel {
+        targets = ["//rootModule"]
+  }
+  buck {
+    targets = ["//rootModule:src_debug"]
+  }
+}
+
+################################################################################
+# ABI Max Leaf, Local Cache
+################################################################################
+abiChangeWithMaxLeafLocalCache {
+  tasks = [":rootModule:assembleDebug"]
+  apply-abi-change-to = "leafModuleMax/src/main/java/leafModuleMaxpackageJava0/Foo0.java"
+  clear-build-cache-before = SCENARIO
+  bazel {
+        targets = ["//rootModule"]
+  }
+  buck {
+    targets = ["//rootModule:src_debug"]
+  }
+}
+
+################################################################################
+# ABI Avg Leaf, Local Cache
+################################################################################
+abiChangeWithAvgLeafLocalCache {
+  tasks = [":rootModule:assembleDebug"]
+  apply-abi-change-to = "leafModuleAvg/src/main/java/leafModuleAvgpackageJava0/Foo0.java"
+  clear-build-cache-before = SCENARIO
+  bazel {
+        targets = ["//rootModule"]
+  }
+  buck {
+    targets = ["//rootModule:src_debug"]
+  }
+}
+
+################################################################################
+# ABI Min Leaf, Local Cache
+################################################################################
+abiChangeWithMinLeafLocalCache {
+  tasks = [":rootModule:assembleDebug"]
+  apply-abi-change-to = "leafModuleMin/src/main/java/leafModuleMinpackageJava0/Foo0.java"
+  clear-build-cache-before = SCENARIO
+  bazel {
+        targets = ["//rootModule"]
+  }
+  buck {
+    targets = ["//rootModule:src_debug"]
+  }
+}
+
+################################################################################
+# non-ABI Max Leaf, Local Cache
+################################################################################
+nonAbiChangeWithMaxLeafLocalCache {
+  tasks = [":rootModule:assembleDebug"]
+  apply-non-abi-change-to = "leafModuleMax/src/main/java/leafModuleMaxpackageJava0/Foo0.java"
+  clear-build-cache-before = SCENARIO
+  bazel {
+        targets = ["//rootModule"]
+  }
+  buck {
+    targets = ["//rootModule:src_debug"]
+  }
+}
+
+################################################################################
+# non-ABI Avg Leaf, Local Cache
+################################################################################
+nonAbiChangeWithAvgLeafLocalCache {
+  tasks = [":rootModule:assembleDebug"]
+  apply-non-abi-change-to = "leafModuleAvg/src/main/java/leafModuleAvgpackageJava0/Foo0.java"
+  clear-build-cache-before = SCENARIO
+  bazel {
+        targets = ["//rootModule"]
+  }
+  buck {
+    targets = ["//rootModule:src_debug"]
+  }
+}
+
+################################################################################
+# non-ABI Min Leaf, Local Cache
+################################################################################
+nonAbiChangeWithMinLeafLocalCache {
+  tasks = [":rootModule:assembleDebug"]
+  apply-non-abi-change-to = "leafModuleMin/src/main/java/leafModuleMinpackageJava0/Foo0.java"
+  clear-build-cache-before = SCENARIO
+  bazel {
+        targets = ["//rootModule"]
+  }
+  buck {
+    targets = ["//rootModule:src_debug"]
+  }
+}
+
+################################################################################
+# Resource change Root, Local Cache
+################################################################################
+androidResourceChangeWithRootLocalCache {
+  tasks = [":rootModule:assembleDebug"]
+  apply-android-resource-change-to = "rootModule/src/main/res/values/strings.xml"
+  clear-build-cache-before = SCENARIO
+  bazel {
+        targets = ["//rootModule"]
+  }
+  buck {
+    targets = ["//rootModule:src_debug"]
+  }
+}

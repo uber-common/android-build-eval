@@ -1,0 +1,51 @@
+scenario,fullLocalCache,abiChangeWithMaxLeafLocalCache,abiChangeWithAvgLeafLocalCache,abiChangeWithMinLeafLocalCache,nonAbiChangeWithMaxLeafLocalCache,androidResourceChangeWithRootLocalCache,noOpLocalCache
+build tool,Buck,Buck,Buck,Buck,Buck,Buck,Buck
+version,7694f1e39d4ae38fef53c5e5021d29c0f14bb6c3,7694f1e39d4ae38fef53c5e5021d29c0f14bb6c3,7694f1e39d4ae38fef53c5e5021d29c0f14bb6c3,7694f1e39d4ae38fef53c5e5021d29c0f14bb6c3,7694f1e39d4ae38fef53c5e5021d29c0f14bb6c3,7694f1e39d4ae38fef53c5e5021d29c0f14bb6c3,7694f1e39d4ae38fef53c5e5021d29c0f14bb6c3
+hostname,oliviern,oliviern,oliviern,oliviern,oliviern,oliviern,oliviern
+source,/home/user/Uber/generatedProjects/mobile_app1/output/20201219_061212/buck/benchmark.csv,/home/user/Uber/generatedProjects/mobile_app1/output/20201219_061212/buck/benchmark.csv,/home/user/Uber/generatedProjects/mobile_app1/output/20201219_061212/buck/benchmark.csv,/home/user/Uber/generatedProjects/mobile_app1/output/20201219_061212/buck/benchmark.csv,/home/user/Uber/generatedProjects/mobile_app1/output/20201219_061212/buck/benchmark.csv,/home/user/Uber/generatedProjects/mobile_app1/output/20201219_061212/buck/benchmark.csv,/home/user/Uber/generatedProjects/mobile_app1/output/20201219_061212/buck/benchmark.csv
+tasks,//rootModule:src_debug,//rootModule:src_debug,//rootModule:src_debug,//rootModule:src_debug,//rootModule:src_debug,//rootModule:src_debug,//rootModule:src_debug
+commands,,,,,,,
+warm-up build #1,215287,42976,5049,2735,4147,2525,1887
+measured build #1,212042,43919,4130,2694,3663,1922,2117
+measured build #2,213672,42607,4592,2661,3770,1971,1970
+mean,212857.0,43263.0,4361.0,2677.5,3716.5,1946.5,2043.5
+min,212042.0,42607.0,4130.0,2661.0,3663.0,1922.0,1970.0
+25th percentile,212042.0,42607.0,4130.0,2661.0,3663.0,1922.0,1970.0
+median,212857.0,43263.0,4361.0,2677.5,3716.5,1946.5,2043.5
+75th percentile,213672.0,43919.0,4592.0,2694.0,3770.0,1971.0,2117.0
+max,213672.0,43919.0,4592.0,2694.0,3770.0,1971.0,2117.0
+stddev,1152.5840533340725,927.7240969167503,326.683332908185,23.33452377915607,75.66042558696059,34.64823227814083,103.94469683442249
+scenario,fullLocalCache,abiChangeWithMaxLeafLocalCache,abiChangeWithAvgLeafLocalCache,abiChangeWithMinLeafLocalCache,nonAbiChangeWithMaxLeafLocalCache,androidResourceChangeWithRootLocalCache,noOpLocalCache
+build tool,Gradle,Gradle,Gradle,Gradle,Gradle,Gradle,Gradle
+version,6.7,6.7,6.7,6.7,6.7,6.7,6.7
+hostname,oliviern,oliviern,oliviern,oliviern,oliviern,oliviern,oliviern
+source,/home/user/Uber/generatedProjects/mobile_app1/output/20201219_061212/gradle/benchmark.csv,/home/user/Uber/generatedProjects/mobile_app1/output/20201219_061212/gradle/benchmark.csv,/home/user/Uber/generatedProjects/mobile_app1/output/20201219_061212/gradle/benchmark.csv,/home/user/Uber/generatedProjects/mobile_app1/output/20201219_061212/gradle/benchmark.csv,/home/user/Uber/generatedProjects/mobile_app1/output/20201219_061212/gradle/benchmark.csv,/home/user/Uber/generatedProjects/mobile_app1/output/20201219_061212/gradle/benchmark.csv,/home/user/Uber/generatedProjects/mobile_app1/output/20201219_061212/gradle/benchmark.csv
+tasks,:rootModule:assembleDebug,:rootModule:assembleDebug,:rootModule:assembleDebug,:rootModule:assembleDebug,:rootModule:assembleDebug,:rootModule:assembleDebug,:rootModule:assembleDebug
+commands,--no-build-cache,,,,,,
+warm-up build #1,239135,76848,75280,38835,54114,55111,37955
+measured build #1,81240,51641,10993,11087,30239,11465,11161
+measured build #2,82750,50915,11272,10623,29208,13444,12387
+mean,81995.0,51278.0,11132.5,10855.0,29723.5,12454.5,11774.0
+min,81240.0,50915.0,10993.0,10623.0,29208.0,11465.0,11161.0
+25th percentile,81240.0,50915.0,10993.0,10623.0,29208.0,11465.0,11161.0
+median,81995.0,51278.0,11132.5,10855.0,29723.5,12454.5,11774.0
+75th percentile,82750.0,51641.0,11272.0,11087.0,30239.0,13444.0,12387.0
+max,82750.0,51641.0,11272.0,11087.0,30239.0,13444.0,12387.0
+stddev,1067.7312395916867,513.3595231414336,197.28279195104676,328.09754647055803,729.0270914033305,1399.3643199681776,866.9129137347072
+scenario,fullLocalCache,abiChangeWithMaxLeafLocalCache,abiChangeWithAvgLeafLocalCache,abiChangeWithMinLeafLocalCache,nonAbiChangeWithMaxLeafLocalCache,androidResourceChangeWithRootLocalCache,noOpLocalCache
+build tool,Bazel,Bazel,Bazel,Bazel,Bazel,Bazel,Bazel
+version,1.1.0,1.1.0,1.1.0,1.1.0,1.1.0,1.1.0,1.1.0
+hostname,oliviern,oliviern,oliviern,oliviern,oliviern,oliviern,oliviern
+source,/home/user/Uber/generatedProjects/mobile_app1/output/20201219_061212/bazel/benchmark.csv,/home/user/Uber/generatedProjects/mobile_app1/output/20201219_061212/bazel/benchmark.csv,/home/user/Uber/generatedProjects/mobile_app1/output/20201219_061212/bazel/benchmark.csv,/home/user/Uber/generatedProjects/mobile_app1/output/20201219_061212/bazel/benchmark.csv,/home/user/Uber/generatedProjects/mobile_app1/output/20201219_061212/bazel/benchmark.csv,/home/user/Uber/generatedProjects/mobile_app1/output/20201219_061212/bazel/benchmark.csv,/home/user/Uber/generatedProjects/mobile_app1/output/20201219_061212/bazel/benchmark.csv
+tasks,//rootModule,//rootModule,//rootModule,//rootModule,//rootModule,//rootModule,//rootModule
+commands,build,build,build,build,build,build,build
+warm-up build #1,281343,188547,188883,69272,69830,5650,5077
+measured build #1,218553,188262,66096,61507,4379,5178,1468
+measured build #2,221042,188942,65387,69759,3297,4900,1500
+mean,219797.5,188602.0,65741.5,65633.0,3838.0,5039.0,1484.0
+min,218553.0,188262.0,65387.0,61507.0,3297.0,4900.0,1468.0
+25th percentile,218553.0,188262.0,65387.0,61507.0,3297.0,4900.0,1468.0
+median,219797.5,188602.0,65741.5,65633.0,3838.0,5039.0,1484.0
+75th percentile,221042.0,188942.0,66096.0,69759.0,4379.0,5178.0,1500.0
+max,221042.0,188942.0,66096.0,69759.0,4379.0,5178.0,1500.0
+stddev,1759.9887783733168,480.83261120685233,501.3387078612622,5835.0451583513905,765.0895372438445,196.5756851698602,22.627416997969522

@@ -1,0 +1,17 @@
+apply plugin: 'java-library'
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    implementation project(':module319')
+    implementation project(':leafModuleMax')
+    implementation "org.checkerframework:checker-compat-qual:2.5.5"
+    implementation "org.reactivestreams:reactive-streams:1.0.2"
+    implementation "org.jetbrains.kotlin:kotlin-allopen:1.4.21"
+    implementation "io.reactivex.rxjava2:rxandroid:2.1.1"
+    implementation project(':module1208')
+    implementation "androidx.annotation:annotation-experimental:1.0.0"
+    implementation "com.jakewharton.rxrelay2:rxrelay:2.1.0"
+    implementation project(':module1066')
+    implementation "javax.inject:javax.inject:1"
+}
+sourceCompatibility = "1.8"
+targetCompatibility = "1.8"

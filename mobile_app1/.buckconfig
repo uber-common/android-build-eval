@@ -1,0 +1,39 @@
+[java]
+    jar_spool_mode = direct_to_jar
+    suggest_dependencies = false
+    skip_checking_missing_deps = true
+    compile_against_abis = true
+    duplicates_log_level = fine
+    source_level = 8
+    target_level = 8
+    desugar_interface_methods = true
+    classpath_ordering = reversed
+
+[build]
+  metadata_storage = sqlite
+  action_graph_parallelization = enabled
+  file_hash_cache_mode = limited_prefix_tree
+  depfiles = cache
+
+[resources]
+  resource_aware_scheduling_enabled = true
+
+[maven_repositories]
+  google = https://dl.google.com/dl/android/maven2/
+  bintrayjcenter = https://jcenter.bintray.com/
+  maven = https://jitpack.io
+
+[download]
+  maven_repo = https://repo1.maven.org/maven2
+  in_build = true
+
+[defs]
+  disable_errorprone=true
+
+[android]
+    build_tools_version = 30.0.1
+    target = android-30
+
+[log]
+  chrome_trace_generation = true
+  max_traces = 25

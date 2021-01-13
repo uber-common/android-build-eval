@@ -1,0 +1,20 @@
+# 12Gb mem heap
+startup --host_jvm_args=-Xmx12g
+
+# Disable error prone, for build benchmarking parity
+build --javacopt=-XepDisableAllChecks
+
+# Disable generating header file separately, it actually slows down build time in this project
+build --nojava_header_compilation
+build --nojava_deps
+
+# Disable sandboxing, to get optimal build times. Should be required on CI though.
+build --noworker_sandboxing
+build --strategy=worker,local
+build --spawn_strategy=worker,local
+
+build --strategy=DexBuilder=worker,local
+build --strategy=Javac=worker,local
+build --strategy=KotlinCompile=worker,local
+build --strategy=Desugar=worker,local
+build --persistent_android_resource_processor
