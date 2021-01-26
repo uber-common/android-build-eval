@@ -1,11 +1,11 @@
 buildscript {
-    ext.kotlin_version = '1.4.20-RC'
+    ext.kotlin_version = providers.systemProperty('kotlinVersion').forUseAtConfigurationTime().orNull ?: '1.4.21'
     repositories {
         google()
         jcenter()
     }
     dependencies {
-        classpath "com.android.tools.build:gradle:4.2.0-alpha10"
+        classpath "com.android.tools.build:gradle:${providers.systemProperty("agpVersion").forUseAtConfigurationTime().orNull ?: '4.2.0-beta03'}"
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
         classpath "com.uber:okbuck:0.52.0"
     }
@@ -25,7 +25,6 @@ task clean(type: Delete) {
 buildScan {
     termsOfServiceUrl = 'https://gradle.com/terms-of-service'
     termsOfServiceAgree = 'yes'
-    tag 'SAMPLE'
-    link 'GitHub', 'https://github.com/gradle/gradle-build-scan-quickstart'
+    link 'GitHub', 'https://github.com/uber-common/android-build-eval'
 }
 apply plugin: 'com.uber.okbuck'
