@@ -27,4 +27,7 @@ buildScan {
     termsOfServiceAgree = 'yes'
     link 'GitHub', 'https://github.com/uber-common/android-build-eval'
 }
-apply plugin: 'com.uber.okbuck'
+// Only apply the okbuck Gradle plugin when generating the wrapper and BUCK files.
+if ((providers.systemProperty('okbuck.wrapper').forUseAtConfigurationTime().orNull ?: 'false').toBoolean()) {
+    apply plugin: 'com.uber.okbuck'
+}
