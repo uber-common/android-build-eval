@@ -60,11 +60,18 @@ Benchmark scenario are as follow :
 - androidResourceChangeWithRootLocalCache : incremental build with resources changes to root module
 - noOpLocalCache : no-op build
 
-### Current results
+### Benchmark results
+
+#### Conditions
 
 - Bazel : 3.7.0, persistent workers, sandboxing disabled, JAVA header generation disabled
-- Gradle : 6.7, file watcher and configuration cache enabled
+- Gradle : 6.8, file watcher and configuration cache enabled
 - Buck : latest version (as specified by OkBuck)
+- Java : Java 8 compiler is used (pulled from JAVA_HOME env variable)
+- Host machine : benchmark is ran on powerful linux server (**). Slower build times are expected on Macbook Pros, for instance.
+- Last run : 01/11/2021 (code changes made after that are not reflected yet in result below)
+
+#### Current results
 
 ![apps_presidio_helix_app results](/output/mobile_app1.png)
 
@@ -85,3 +92,11 @@ the License.
 ```
 
 (*) The generated code is not representative of Uber's existing production mobile apps.
+
+(**) Architecture:       x86_64
+CPU op-mode(s):     32-bit, 64-bit
+CPU(s):             96
+Thread(s) per core: 2
+Core(s) per socket: 24
+Model name:         Intel(R) Xeon(R) CPU @ 2.00GHz
+RAM:                396gb
