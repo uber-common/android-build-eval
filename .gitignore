@@ -1,5 +1,8 @@
+.DS_Store
+
 build/
 .gradle
 gradle-user-home
 profile-out-*
 
+.java-version

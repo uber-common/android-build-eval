@@ -73,7 +73,7 @@ Benchmark scenario are as follow :
 
 #### Current results
 
-![apps_presidio_helix_app results](/output/mobile_app1.png)
+![apps_presidio_helix_app results](/results/mobile_app1.png)
 
 ### License
 
