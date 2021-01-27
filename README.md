@@ -21,11 +21,11 @@ When building these project, we voluntarily disable lint, error prone and annota
 
 Also, we're not using build network cache, nor remote build execution (Bazel).
 
-### Pre-requisite to building each project
+### Setup
 
 - Make sure Bazel is installed, and is on the PATH (<https://docs.bazel.build/versions/master/install.html>)
-- Disable OkBuck : `export SKIP_OKBUCK=1`. This will prevent OkBuck to regenerate Buck files at the beginning of builds.
-- Change directory to mobile app folder.
+- Change directory to mobile app folder : `cd mobile_app1`
+- Generate OkBuck files : `SKIP_OKBUCK=0 ./gradlew -Dokbuck.wrapper=true okbuck --no-configuration-cache`
 
 ### How to build a project
 
@@ -35,7 +35,7 @@ Also, we're not using build network cache, nor remote build execution (Bazel).
 
 ### How to run benchmark for a project
 
-- `./benchmark.sh`
+- `export SKIP_OKBUCK=1; ./benchmark.sh`
 
 Build time report will be generated in the /output/<timestamp> folder.
 
