@@ -7,7 +7,9 @@ buildscript {
     dependencies {
         classpath "com.android.tools.build:gradle:${providers.systemProperty("agpVersion").forUseAtConfigurationTime().orNull ?: '4.2.0-beta03'}"
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
-        classpath "com.uber:okbuck:0.52.0"
+        if ((providers.systemProperty('okbuck.wrapper').forUseAtConfigurationTime().orNull ?: 'false').toBoolean()) {
+            classpath "com.uber:okbuck:0.52.0"
+        }
     }
 }
 plugins {
@@ -17,6 +19,14 @@ allprojects {
     repositories {
         google()
         jcenter()
+    }
+    // Disable unused build variants
+    plugins.withType(com.android.build.gradle.BasePlugin) {
+        android.variantFilter { variant ->
+          if (variant.name != 'debug') {
+              variant.ignore = true
+          }
+        }
     }
 }
 task clean(type: Delete) {
