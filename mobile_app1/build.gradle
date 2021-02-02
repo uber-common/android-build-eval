@@ -40,4 +40,8 @@ buildScan {
 // Only apply the okbuck Gradle plugin when generating the wrapper and BUCK files.
 if ((providers.systemProperty('okbuck.wrapper').forUseAtConfigurationTime().orNull ?: 'false').toBoolean()) {
     apply plugin: 'com.uber.okbuck'
+
+    okbuck {
+        buckBinary = "com.github.raviagarwal7:buck:8369cecf8b4a8d628f7852f0030587944f01bc19@pex"
+    }
 }
