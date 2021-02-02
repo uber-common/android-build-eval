@@ -33,7 +33,7 @@ Note : Big Sur on Mac OS is currently not supported for Buck build, this is an i
 
 - (Gradle) `./gradlew rootModule:assembleDebug`
 - (Bazel) `bazel build rootModule`
-- (Buck) `./buckw build rootModule:src_debug`
+- (Buck) `SKIP_OKBUCK=0 ./buckw build rootModule:src_debug`
 
 ### How to run benchmark for a project
 
@@ -67,7 +67,7 @@ Benchmark scenario are as follow :
 #### Conditions
 
 - Bazel : 3.7.0, persistent workers, sandboxing disabled, JAVA header generation disabled
-- Gradle : 6.8, file watcher and configuration cache enabled
+- Gradle : 6.7.1, file watcher and configuration cache enabled
 - Buck : latest version (as specified by OkBuck)
 - Java : Java 8 compiler is used (pulled from JAVA_HOME env variable)
 - Host machine : benchmark is ran on powerful linux server (**). Slower build times are expected on Macbook Pros, for instance.
