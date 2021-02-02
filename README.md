@@ -71,7 +71,7 @@ Benchmark scenario are as follow :
 - Buck : latest version (as specified by OkBuck)
 - Java : Java 8 compiler is used (pulled from JAVA_HOME env variable)
 - Host machine : benchmark is ran on powerful linux server (**). Slower build times are expected on Macbook Pros, for instance.
-- Last run : 01/11/2021 (code changes made after that are not reflected yet in result below)
+- Last run : 02/02/2021 (code changes made after that are not reflected yet in result below)
 
 #### Current results
 
