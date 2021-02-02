@@ -27,11 +27,13 @@ Also, we're not using build network cache, nor remote build execution (Bazel).
 - Change directory to mobile app folder : `cd mobile_app1`
 - Generate OkBuck files : `SKIP_OKBUCK=0 ./gradlew -Dokbuck.wrapper=true okbuck --no-configuration-cache`
 
+Note : Big Sur on Mac OS is currently not supported for Buck build, this is an issue with Buck itself. 
+
 ### How to build a project
 
 - (Gradle) `./gradlew rootModule:assembleDebug`
 - (Bazel) `bazel build rootModule`
-- (Buck) `./buckw build rootModule:src_release`
+- (Buck) `./buckw build rootModule:src_debug`
 
 ### How to run benchmark for a project
 
