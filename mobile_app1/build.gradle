@@ -5,7 +5,7 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath "com.android.tools.build:gradle:${providers.systemProperty("agpVersion").forUseAtConfigurationTime().orNull ?: '4.2.0-beta03'}"
+        classpath "com.android.tools.build:gradle:${providers.systemProperty("agpVersion").forUseAtConfigurationTime().orNull ?: '4.2.0-beta04'}"
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
         if ((providers.systemProperty('okbuck.wrapper').forUseAtConfigurationTime().orNull ?: 'false').toBoolean()) {
             classpath "com.uber:okbuck:0.52.0"
@@ -22,10 +22,10 @@ allprojects {
     }
     // Disable unused build variants
     plugins.withType(com.android.build.gradle.BasePlugin) {
-        android.variantFilter { variant ->
-          if (variant.name != 'debug') {
-              variant.ignore = true
-          }
+        androidComponents {
+          beforeVariants(selector().withBuildType("release"), { enabled = false })
+          beforeUnitTests(selector().all(), { enabled = false })
+          beforeAndroidTests(selector().all(), { enabled = false })
         }
     }
 }
