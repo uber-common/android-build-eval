@@ -10,4 +10,4 @@ jobs:
     steps:
       - checkout
       - run:
-          command: cd mobile_app1:./gradlew rootModule:assembleDebug --stacktrace
+          command: ./gradlew rootModule:assembleDebug --stacktrace
