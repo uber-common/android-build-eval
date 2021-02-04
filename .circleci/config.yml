@@ -10,4 +10,4 @@ jobs:
     steps:
       - checkout
       - run:
-          command: mobile_app1/gradlew mobile_app1:assembleDebug
+          command: mobile_app1/gradlew mobile_app1/rootModule:assembleDebug
