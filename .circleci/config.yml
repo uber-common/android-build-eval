@@ -10,4 +10,4 @@ jobs:
     steps:
       - checkout
       - run:
-          command: ./gradlew rootModule:assembleDebug --stacktrace
+          command: ./gradlew build
