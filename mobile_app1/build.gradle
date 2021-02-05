@@ -1,5 +1,5 @@
 buildscript {
-    ext.kotlin_version = providers.systemProperty('kotlinVersion').forUseAtConfigurationTime().orNull ?: '1.4.21'
+    ext.kotlin_version = providers.systemProperty('kotlinVersion').forUseAtConfigurationTime().orNull ?: '1.4.30'
     repositories {
         google()
         jcenter()
