@@ -30,7 +30,7 @@ else
 fi
 
 BASEDIR=$(dirname "$0")
-GRADLE_VERSION=6.7.1
+GRADLE_VERSION=6.8.2
 
 timestampDir=$(date +"%Y%m%d_%H%M%S")
 outputDir=../output/$timestampDir
