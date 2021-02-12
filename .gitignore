@@ -2,6 +2,7 @@
 
 build/
 .gradle
+.okbuck
 gradle-user-home
 profile-out-*
 
