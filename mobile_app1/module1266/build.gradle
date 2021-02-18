@@ -1,6 +1,5 @@
 apply plugin: 'java-library'
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
     implementation "org.jetbrains.kotlin:kotlin-allopen:1.4.21"
     implementation "androidx.annotation:annotation-experimental:1.0.0"
     implementation "org.checkerframework:checker-compat-qual:2.5.5"
