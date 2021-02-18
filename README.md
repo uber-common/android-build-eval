@@ -17,27 +17,25 @@ Auto-generated project(s) offer similar complexity to existing Uber Production m
 - java Vs kotlin code
 - dependencies on external libraries
 
-When building these project, we voluntarily disable lint, error prone and annotation processors for each build system for better build time measurement parity.
+When building these project, we voluntarily disable lint, error prone (**) and annotation processors for each build system for better build time measurement parity.
 
 Also, we're not using build network cache, nor remote build execution (Bazel).
 
 ### Setup
 
-- Make sure Bazel is installed, and is on the PATH (<https://docs.bazel.build/versions/master/install.html>)
+- Make sure Bazel 3.7+ is installed, and is on the PATH (<https://docs.bazel.build/versions/master/install.html>)
 - Change directory to mobile app folder : `cd mobile_app1`
-- Generate OkBuck files : `SKIP_OKBUCK=0 ./gradlew -Dokbuck.wrapper=true okbuck --no-configuration-cache`
-
-Note : Big Sur on Mac OS is currently not supported for Buck build, this is an issue with Buck itself. 
+- Generate OkBuck files : `./setup_buck.sh`
 
 ### How to build a project
 
 - (Gradle) `./gradlew rootModule:assembleDebug`
 - (Bazel) `bazel build rootModule`
-- (Buck) `SKIP_OKBUCK=0 ./buckw build rootModule:src_debug`
+- (Buck) `./buckw build rootModule:src_release`
 
 ### How to run benchmark for a project
 
-- `export SKIP_OKBUCK=1; ./benchmark.sh`
+- `./benchmark.sh`
 
 Build time report will be generated in the /output/<timestamp> folder.
 
@@ -67,11 +65,11 @@ Benchmark scenario are as follow :
 #### Conditions
 
 - Bazel : 3.7.0, persistent workers, sandboxing disabled, JAVA header generation disabled
-- Gradle : 6.7.1, file watcher and configuration cache enabled
+- Gradle : 6.8, file watcher and configuration cache enabled
 - Buck : latest version (as specified by OkBuck)
 - Java : Java 8 compiler is used (pulled from JAVA_HOME env variable)
-- Host machine : benchmark is ran on powerful linux server (**). Slower build times are expected on Macbook Pros, for instance.
-- Last run : 02/02/2021 (code changes made after that are not reflected yet in result below)
+- Host machine : benchmark is ran on powerful linux server (***). Slower build times are expected on Macbook Pros, for instance.
+- Last run : 01/11/2021 (code changes made after that are not reflected yet in result below)
 
 #### Current results
 
@@ -95,7 +93,9 @@ the License.
 
 (*) The generated code is not representative of Uber's existing production mobile apps.
 
-(**) Architecture:       x86_64
+(**) For Bazel, Error Prone is still running as it doesn't seem possible to disable it.
+
+(***) Architecture:       x86_64
 CPU op-mode(s):     32-bit, 64-bit
 CPU(s):             96
 Thread(s) per core: 2
