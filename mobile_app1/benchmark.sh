@@ -48,6 +48,9 @@ $GRADLE_PROFILER --benchmark --gradle-version $GRADLE_VERSION $2 --iterations=$i
 $GRADLE_PROFILER --benchmark --gradle-version $GRADLE_VERSION $2 --iterations=$iterations --warmups=$warmups --output-dir="$outputDir"/gradle --scenario-file "$BASEDIR/performance.scenarios" --project-dir . --gradle-user-home ../gradle-user-home
 
 # shellcheck disable=SC2086
+$GRADLE_PROFILER --benchmark --gradle-version $GRADLE_VERSION $2 --iterations=$iterations --warmups=$warmups --output-dir="$outputDir"/gradle_config_cache --scenario-file "$BASEDIR/performance.scenarios" --project-dir . --gradle-user-home ../gradle-user-home -Dorg.gradle.unsafe.configuration-cache=true
+
+# shellcheck disable=SC2086
 $GRADLE_PROFILER --benchmark --gradle-version $GRADLE_VERSION $2 --iterations=$iterations --warmups=$warmups --output-dir="$outputDir"/bazel --scenario-file "$BASEDIR/performance.scenarios" --project-dir . --bazel
 
-cat "$outputDir/buck/benchmark.csv" "$outputDir/gradle/benchmark.csv" "$outputDir/bazel/benchmark.csv" >> "$outputDir/all.csv"
+cat "$outputDir/buck/benchmark.csv" "$outputDir/gradle/benchmark.csv" "$outputDir/gradle_config_cache/benchmark.csv" "$outputDir/bazel/benchmark.csv" >> "$outputDir/all.csv"
