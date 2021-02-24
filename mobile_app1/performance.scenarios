@@ -33,15 +33,11 @@ fullLocalCache {
     clean-build-before = [
       {
         schedule = BUILD
-        commands = ["rm", "-rf", "buck-out"]
+        commands = ["./buckw", "clean"]
       },
       {
         schedule = BUILD
         commands = ["./setup_buck.sh"]
-      },
-      {
-        schedule = BUILD
-        commands = ["./buckw", "build", ".okbuck/ext/..."]
       }
     ]
   }
