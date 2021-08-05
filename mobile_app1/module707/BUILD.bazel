@@ -1,4 +1,5 @@
 load("@gmaven_rules//:defs.bzl", "gmaven_artifact")
+load("@build_bazel_rules_android//android:rules.bzl", "android_library")
 
 android_library(
     name = "module707",
