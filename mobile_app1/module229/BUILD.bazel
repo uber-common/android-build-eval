@@ -1,5 +1,5 @@
 load("@gmaven_rules//:defs.bzl", "gmaven_artifact")
-load("@io_bazel_rules_kotlin//kotlin:kotlin.bzl", "kt_android_library")
+load("@io_bazel_rules_kotlin//kotlin:android.bzl", "kt_android_library")
 kt_android_library(
     name = "module229",
     srcs = glob(["src/main/java/**/*.java", "src/main/java/**/*.kt"]),
