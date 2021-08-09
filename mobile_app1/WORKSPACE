@@ -99,16 +99,17 @@ maven_install(
 # Kotlin Rules
 http_archive(
     name = "io_bazel_rules_kotlin",
-    strip_prefix = "rules_kotlin-legacy-1.3.0",
-    urls = ["https://github.com/bazelbuild/rules_kotlin/archive/legacy-1.3.0.zip"],
-    sha256 = "4fd769fb0db5d3c6240df8a9500515775101964eebdf85a3f9f0511130885fde",
+    urls = ["https://github.com/bazelbuild/rules_kotlin/releases/download/v1.5.0-beta-3/rules_kotlin_release.tgz"],
+    sha256 = "58edd86f0f3c5b959c54e656b8e7eb0b0becabd412465c37a2078693c2571f7f",
 )
-load("@io_bazel_rules_kotlin//kotlin:kotlin.bzl", "kotlin_repositories", "kt_register_toolchains")
+
+load("@io_bazel_rules_kotlin//kotlin:repositories.bzl", "kotlin_repositories")
+load("@io_bazel_rules_kotlin//kotlin:core.bzl", "kt_register_toolchains")
 kotlin_repositories()
-kt_register_toolchains()
+# Setup a custom toolchain from //bzl/kotlin:kotlin_toolchain
+register_toolchains("//:kotlin_toolchain")
 
 # Android Rules
-load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
 http_archive(
     name = "build_bazel_rules_android",
     urls = ["https://github.com/bazelbuild/rules_android/archive/v0.1.1.zip"],

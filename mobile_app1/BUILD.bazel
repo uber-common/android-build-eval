@@ -1,4 +1,11 @@
+load("@io_bazel_rules_kotlin//kotlin:kotlin.bzl", "define_kt_toolchain")
+
 sh_binary(
     name = "clean",
     srcs = ["clean.sh"],
+)
+
+define_kt_toolchain(
+    name = "kotlin_toolchain",
+    experimental_use_abi_jars = True,
 )
