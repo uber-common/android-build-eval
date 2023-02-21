@@ -1,11 +1,11 @@
 buildscript {
-    ext.kotlin_version = providers.systemProperty('kotlinVersion').forUseAtConfigurationTime().orNull ?: '1.4.30'
+    ext.kotlin_version = providers.systemProperty('kotlinVersion').forUseAtConfigurationTime().orNull ?: '1.5.30'
     repositories {
         google()
-        jcenter()
+        mavenCentral()
     }
     dependencies {
-        classpath "com.android.tools.build:gradle:${providers.systemProperty("agpVersion").forUseAtConfigurationTime().orNull ?: '4.2.0-beta04'}"
+        classpath "com.android.tools.build:gradle:${providers.systemProperty("agpVersion").forUseAtConfigurationTime().orNull ?: '7.0.2'}"
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
         if ((providers.systemProperty('okbuck.wrapper').forUseAtConfigurationTime().orNull ?: 'false').toBoolean()) {
             classpath "com.uber:okbuck:0.52.3"
@@ -18,15 +18,7 @@ plugins {
 allprojects {
     repositories {
         google()
-        jcenter()
-    }
-    // Disable unused build variants
-    plugins.withType(com.android.build.gradle.BasePlugin) {
-        androidComponents {
-          beforeVariants(selector().withBuildType("release"), { enabled = false })
-          beforeUnitTests(selector().all(), { enabled = false })
-          beforeAndroidTests(selector().all(), { enabled = false })
-        }
+        mavenCentral()
     }
 }
 task clean(type: Delete) {
